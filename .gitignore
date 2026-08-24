@@ -1,0 +1,75 @@
+# ===================================================================
+# ECON 122 F26 — .gitignore
+#
+# REMEMBER: this repo IS the website. Tracked + pushed == public.
+# This file is the security boundary. If a solution is NOT listed as
+# ignored here, and you commit it, students can reach it by URL.
+#
+# Model (inherited from f25, with solutions tightened):
+#   - Slides:     publish HTML only. Source (.Rmd) stays private.
+#   - Activities: publish student .Rmd + rendered output.
+#   - Solutions:  PRIVATE BY DEFAULT. Released one at a time, after
+#                 the due date, by force-adding the specific file.
+# ===================================================================
+
+# --- R / RStudio cruft (never publish) ---
+.Rproj.user
+.Rhistory
+.RData
+.RDataTmp
+.Ruserdata
+*.rds
+*.Rproj
+
+# --- Slides: students get HTML, not source ---
+slides/*.Rmd
+slides/*.rmd
+
+# --- SOLUTIONS: private by default (this is the key change from f25) ---
+# All solution files are ignored so a stray `git add .` can never publish
+# them. To release one after its due date, force-add just that file:
+#     git add -f ps/ps1_sol.html
+# then commit and push only that file.
+*_sol.html
+*_sol.Rmd
+*_sol.rmd
+*_sol.md
+*_solution.*
+activity/sol/
+ps/*_sol.*
+
+# --- Grading & answer keys: never publish ---
+grading.Rmd
+profit_calculator.R
+*_results.csv
+*optimal_parameters*
+*optimization_results*
+tp*/loan_*_with_outcomes.csv
+tp*/*_full_instructor.csv
+
+# --- Exams: never publish from this repo ---
+exam*/
+*_exam_sol.*
+MT*_key.*
+
+# --- Spreadsheets / misc ---
+*.xls
+*.xlsx
+push_log.txt
+
+# --- Internal planning docs: not ready for students yet ---
+# Working schedule drafts, notes, etc. Fold confirmed pieces into
+# README.md by hand (or ask) when ready to release them.
+schedule_*_draft.csv
+internal_notes.md
+TODO.md
+TODO.html
+RELEASE_CHECKLIST.md
+
+# ===================================================================
+# NOTE ON student activity source:
+# f25 intentionally PUBLISHES activity/*_activity.Rmd (students open the
+# starter file). That is fine and NOT ignored here. Only the *_sol.*
+# versions are private. If you'd rather students get only rendered
+# activity HTML, add:  activity/*_activity.Rmd
+# ===================================================================
