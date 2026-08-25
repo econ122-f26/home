@@ -1,6 +1,3 @@
-Course schedule for ECON 122 (F26)
-================
-
 Michael Gelman (<mgelman@cmc.edu>), Claremont McKenna College
 
 Office hours:
