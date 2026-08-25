@@ -1,21 +1,10 @@
-Michael Gelman (<mgelman@cmc.edu>), Claremont McKenna College
-
-Office hours:
-
-- Mo/We 1:00-2:00 PM Bauer 216
-
-Tutor sessions:
-
-- TBD
-
-Textbooks:
-
-- [R for Data Science](http://r4ds.had.co.nz/)
-- [An Introduction to Statistical Learning](https://hastie.su.domains/ISLR2/ISLRv2_corrected_June_2023.pdf.download.html)
+See the [Syllabus](ECON122_F2026_DataScience_StatisticalLearning.md) for
+instructor contact info, office hours, tutor sessions, textbooks, and
+grading policies.
 
 References:
 
--   Syllabus (TBD)
+-   [Syllabus](ECON122_F2026_DataScience_StatisticalLearning.md)
 -   [GitHub Classroom quick guide](https://github.com/econ122-f26/github-classroom-for-students)
 -   [GitHub reference full guide](https://happygitwithr.com/index.html)
 
