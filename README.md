@@ -5,7 +5,9 @@ grading policies.
 ------------------------------------------------------------------------
 ### Assignments due
 
-*(to be added as assignments are posted)*
+- Problem Set 1 (link TBD) (due **09/18**)
+- Team Project 1 (link TBD) (due **09/25**)
+- Problem Set 2 (link TBD) (due **10/02**)
 
 ------------------------------------------------------------------------
 ### Week 1 (08/31)
@@ -27,6 +29,8 @@ grading policies.
 
 ------------------------------------------------------------------------
 ### Week 2 (09/07)
+
+**Readings:** Ch 5 of R4DS
 
 **Monday**
   - Labor Day!!
