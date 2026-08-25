@@ -2,12 +2,6 @@ See the [Syllabus](ECON122_F2026_DataScience_StatisticalLearning.md) for
 instructor contact info, office hours, tutor sessions, textbooks, and
 grading policies.
 
-References:
-
--   [Syllabus](ECON122_F2026_DataScience_StatisticalLearning.md)
--   [GitHub Classroom quick guide](https://github.com/econ122-f26/github-classroom-for-students)
--   [GitHub reference full guide](https://happygitwithr.com/index.html)
-
 ------------------------------------------------------------------------
 ### Assignments due
 
