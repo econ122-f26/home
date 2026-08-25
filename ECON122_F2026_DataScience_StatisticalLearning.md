@@ -70,11 +70,11 @@ Upon successful completion of this course, students will be able to:
 
 - **Overall Weighting:**
   - Class Attendance/Participation: 5%
-  - Problem Sets: 15%
+  - Problem Sets: 10%
   - Team Projects: 15%
-  - Midterm 1: 20%
-  - Midterm 2: 20%
-  - Final Project: 25%
+  - Midterm 1: 25%
+  - Midterm 2: 25%
+  - Final Project: 20%
 - **Exams:**
   - Midterm 1: October 5, 2026
   - Midterm 2: December 2, 2026
