@@ -29,34 +29,11 @@ lapply(mypacks, library, character.only=TRUE)
 
 This is a self-directed activity designed to reinforce the concepts of R Markdown and Git/GitHub. Please work through the steps at your own pace. If you get stuck, please ask for help!
 
+**You're reading this because you've already accepted the assignment and cloned it into RStudio** — if that's not true yet (e.g. you're previewing this before class), see the ["downloading and editing assignments" steps](https://github.com/econ122-f26/github-classroom-for-students#steps-for-downloading-and-editing-assignments-through-classroom-50) in the classroom guide first, then come back to your own cloned copy of this file.
+
 Estimated Time: 40 minutes
 
-### Part 1: Get Your Assignment Repo (5 mins)
-
-Before you can edit anything, you need your own copy of this activity through Classroom 50.
-
-#### Step 1: Join the Class Organization (one-time)
-
-If you haven't already:
-
-1. Accept the email invite to the **econ122-f26** GitHub organization.
-2. Go to **classroom50.org**, sign in with GitHub, and confirm you see **econ122-f26** listed.
-
-You only need to do this once, at the start of the semester.
-
-#### Step 2: Accept This Assignment
-
-Click the assignment link: **TBD** *(posted separately — check the README)*. Confirm to accept. This creates a private repository just for you, with this activity file (`day2_activity.Rmd`) already inside it.
-
-#### Step 3: Clone Your Assignment Repo into RStudio
-
-1. On your new repo's GitHub page, click the green **"Code"** button and copy the HTTPS URL.
-2. In RStudio, go to `File > New Project...`, select **"Version Control"** then **"Git"**, and paste the URL into the **"Repository URL"** field.
-3. Choose a project directory and click **"Create Project"**.
-
-RStudio will download your repo, and you should see `day2_activity.Rmd` — this exact file — in the Files pane. **Open it and keep working from your own copy for the rest of this activity**, not wherever you're reading this from now.
-
-### Part 2: Creating a Reproducible Report with R Markdown (20 mins)
+### Part 1: Creating a Reproducible Report with R Markdown (20 mins)
 
 In this section, you will build out a simple R Markdown report that combines text and code, working directly in your own `day2_activity.Rmd`.
 
@@ -105,7 +82,7 @@ What if you want to hide the R code, but keep the plot? What chunk option would 
 
 Your Turn: Knit the document one last time and check that the R code for the plot is now hidden.
 
-### Part 3: Commit and Push (Submit Your Work) (15 mins)
+### Part 2: Commit and Push (Submit Your Work) (15 mins)
 
 In this section, you'll use Git to save your changes and push them to GitHub — this is what actually submits your work.
 

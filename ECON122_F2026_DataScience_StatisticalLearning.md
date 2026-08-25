@@ -79,7 +79,7 @@ Upon successful completion of this course, students will be able to:
   - Midterm 1: October 5, 2026
   - Midterm 2: December 2, 2026
 - **Attendance/Participation (5%):** Beyond physical attendance, this
-  includes (1) submitting the in-class activity via GitHub Classroom each
+  includes (1) submitting the in-class activity to your assignment repo each
   session, graded on completion rather than correctness, and (2) occasional
   random spot-checks during the activity period, where a student is asked to
   briefly walk through their work and any issues they've run into.
