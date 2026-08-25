@@ -5,7 +5,7 @@ Michael Gelman (<mgelman@cmc.edu>), Claremont McKenna College
 
 Office hours:
 
-- TBD
+- Mo/We 1:00-2:00 PM Bauer 216
 
 Tutor sessions:
 
@@ -19,7 +19,7 @@ Textbooks:
 References:
 
 -   Syllabus (TBD)
--   GitHub Classroom quick guide (TBD)
+-   [GitHub Classroom quick guide](https://github.com/econ122-f26/github-classroom-for-students)
 -   [GitHub reference full guide](https://happygitwithr.com/index.html)
 
 ------------------------------------------------------------------------
@@ -32,7 +32,7 @@ References:
 
 **Readings:** Ch 1-2, 27 of R4DS
 
-**Monday** — **no class meets today.**
+**Monday** — **no class meets today (Convocation).**
 -   Instead, complete the [Day 1 setup activity](activity/day1_activity.Rmd)
     on your own: install R, RStudio, and Git; create a GitHub account; work
     through the R basics exercises.

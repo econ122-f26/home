@@ -8,8 +8,8 @@ output: github_document
 
 ### Before you start
 
-We do **not** meet as a class on Monday 08/31. Instead, work through this
-page on your own before our first class meeting on **Wednesday 09/03**.
+We do **not** meet as a class on Monday 08/31 (Convocation). Instead, work through this
+page on your own before our first class meeting on **Wednesday 09/02**.
 Budget **60–90 minutes**, most of it for installing software.
 
 If you get stuck on setup, don't burn hours on it alone — come to office
@@ -18,38 +18,52 @@ before Wednesday.
 
 ------------------------------------------------------------------------
 
-### Part 0: Install R and RStudio
+### What is data science, and why R?
 
-1.  Install **R** from CRAN: <https://cran.r-project.org/>
-    (choose your OS, take the latest release).
-2.  Install **RStudio Desktop** (free version):
-    <https://posit.co/download/rstudio-desktop/>
-3.  Open RStudio and confirm it launches. You should see four panes:
-    Console, Source, Environment/History, and Files/Plots/Packages/Help.
+Before you install anything, a quick orientation on what this course is
+actually about.
 
-### Part 0.5: Install Git and create a GitHub account
+**Data science** is the practice of using data to answer questions and
+make decisions. Most projects move through a similar cycle: **ask** a
+question, **wrangle** (get and clean) the data, **explore** it visually
+and numerically, **model** it, and **communicate** what you found. This
+course is structured around that cycle — Part I of the semester covers
+wrangling and exploration, Part II covers modeling.
 
-We'll use Git and GitHub for every assignment this semester, starting
-next week, so it's worth getting comfortable now.
+We'll do all of this in **R**, a programming language built specifically
+for data and statistics. A few reasons it's a good fit:
 
-1.  Create a free account at <https://github.com/> if you don't have one.
-    Use a professional username — you may end up linking this account to
-    a resume or portfolio.
-2.  Install Git:
-    -   **Windows:** <https://gitforwindows.org/>
-    -   **Mac:** open Terminal and run `git --version` — this usually
-        prompts you to install Xcode Command Line Tools, which include Git.
-3.  Follow **Chapters 4–9** of *Happy Git and GitHub for the useR*
-    (<https://happygitwithr.com/>) to connect Git, GitHub, and RStudio.
-    This is the single best resource for getting this stack working —
-    don't skip it if `usethis::git_sitrep()` (covered in the guide)
-    reports problems.
+-   A huge ecosystem of packages for nearly any data task (the
+    "tidyverse," which you'll use constantly).
+-   `ggplot2`, one of the most capable data visualization tools available
+    in any language.
+-   It was built by statisticians, so the statistical methods you'll
+    learn later this semester (regression, classification, etc.) are
+    first-class, not an afterthought.
+-   Strong tools for reproducibility — R Markdown (which you'll use for
+    every assignment, including this one) combines code, output, and
+    narrative into one document that anyone can re-run and get your exact
+    results.
 
-### Part 0.75: Join GitHub Classroom
+(Python is also widely used for data science and you'll likely run into
+it elsewhere — R is simply the tool this course uses.)
 
-*(Link TBD — I'll post the GitHub Classroom invite link here and announce
-it separately before it's needed. You do not need this for today's
-activity.)*
+That's the "why." The rest of this page is the "how": getting your tools
+installed so you're ready to work in R starting next class.
+
+------------------------------------------------------------------------
+
+### Setup: R, RStudio, Git, GitHub
+
+Follow the full setup guide here, start to finish:
+
+**[github.com/econ122-f26/github-classroom-for-students](https://github.com/econ122-f26/github-classroom-for-students)**
+
+It walks you through installing R and RStudio, installing Git, creating a
+GitHub account, configuring Git, and setting up a Personal Access Token —
+everything you need connected and working together. Come back to this
+page once you can knit an R Markdown document (the guide will get you
+there).
 
 ------------------------------------------------------------------------
 
@@ -171,4 +185,4 @@ $$
 
 -   Confirm R, RStudio, and Git are installed and working.
 -   Confirm you can knit this file to a `.md` or `.html` output.
--   Bring your laptop, fully set up, to class on 09/03.
+-   Bring your laptop, fully set up, to class on 09/02.
