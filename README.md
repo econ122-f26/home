@@ -14,11 +14,12 @@ grading policies.
 
 **Readings:** Ch 1-2, 27 of R4DS
 
-**Monday** — **no class meets today (Convocation).**
--   Instead, complete the [Day 1 setup activity](activity/day1_activity.Rmd)
-    on your own: install R, RStudio, and Git; create a GitHub account; work
-    through the R basics exercises.
--   Budget 60–90 minutes. Come to office hours or email me if you get stuck.
+**Monday** — **no class today (Convocation).**
+-   First, install R, RStudio, and Git, and create a GitHub account, using
+    the [setup guide](https://github.com/econ122-f26/github-classroom-for-students).
+-   Then, work through the [Day 1 activity](activity/day1_activity.Rmd) on
+    your own (R basics exercises).
+-   Budget 60–90 minutes total. Come to office hours or email me if you get stuck.
 
 **Wednesday** (first class meeting — reproducibility, R Markdown)
 -   before class:
