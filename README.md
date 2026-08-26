@@ -26,7 +26,7 @@ grading policies.
     -   Make sure Day 1 setup is complete — bring a working R/RStudio/Git
         install to class.
 -   in class:
-    -   day 2 [slides](slides/day2.html){:target="_blank"}, [activity](activity/day2_activity.Rmd)
+    -   day 2 [slides](slides/day2.html){:target="_blank"}, activity (link TBD)
 
 ------------------------------------------------------------------------
 ### Week 2 (09/07)
@@ -37,7 +37,7 @@ grading policies.
   - Labor Day!!
 
 **Wednesday** (data wrangling with dplyr)
-  -   day 3 [slides](slides/day3.html){:target="_blank"}, [activity](activity/day3_activity.Rmd)
+  -   day 3 [slides](slides/day3.html){:target="_blank"}, activity (link TBD)
 
 ------------------------------------------------------------------------
 ### Week 3 (09/14)
@@ -45,9 +45,9 @@ grading policies.
 **Readings:** Ch 3, 7, 12, 13 of R4DS
 
 **Monday** (reshaping/joining)
-  -   day 4 [slides](slides/day4.html){:target="_blank"}, [activity](activity/day4_activity.Rmd)
+  -   day 4 [slides](slides/day4.html){:target="_blank"}, activity (link TBD)
   -   discuss Team Project 1 (details to come)
 
 **Wednesday** (exploratory data analysis (EDA))
-  -   day 5 [slides](slides/day5.html){:target="_blank"}, [activity](activity/day5_activity.Rmd)
+  -   day 5 [slides](slides/day5.html){:target="_blank"}, activity (link TBD)
   -   **reminder:** Problem Set 1 due Friday 09/18

@@ -67,10 +67,12 @@ TODO.html
 RELEASE_CHECKLIST.md
 autograder_templates/
 
-# ===================================================================
-# NOTE ON student activity source:
-# f25 intentionally PUBLISHES activity/*_activity.Rmd (students open the
-# starter file). That is fine and NOT ignored here. Only the *_sol.*
-# versions are private. If you'd rather students get only rendered
-# activity HTML, add:  activity/*_activity.Rmd
-# ===================================================================
+# --- Activities & problem sets: distributed via Classroom 50 template ---
+# repos (separate GitHub repos, e.g. econ122-f26/day3-activity-template),
+# not published from this site. Day 1 is the exception: async, pre-class
+# setup with no submission, so it stays a direct link/file as before.
+# ps/*.Rmd (student version, not just *_sol.*) is included here too, since
+# problem sets never get committed to this repo at all under this model.
+activity/*_activity.Rmd
+!activity/day1_activity.Rmd
+ps/*.Rmd
