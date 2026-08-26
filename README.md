@@ -38,3 +38,16 @@ grading policies.
 
 **Wednesday** (data wrangling with dplyr)
   -   day 3 [slides](slides/day3.html){:target="_blank"}, [activity](activity/day3_activity.Rmd)
+
+------------------------------------------------------------------------
+### Week 3 (09/14)
+
+**Readings:** Ch 3, 7, 12, 13 of R4DS
+
+**Monday** (reshaping/joining)
+  -   day 4 [slides](slides/day4.html){:target="_blank"}, [activity](activity/day4_activity.Rmd)
+  -   discuss Team Project 1 (details to come)
+
+**Wednesday** (exploratory data analysis (EDA))
+  -   day 5 [slides](slides/day5.html){:target="_blank"}, [activity](activity/day5_activity.Rmd)
+  -   **reminder:** Problem Set 1 due Friday 09/18
