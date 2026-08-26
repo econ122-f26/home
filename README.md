@@ -36,5 +36,5 @@ grading policies.
 **Monday**
   - Labor Day!!
 
-**Wednesday**
-  - *(materials to be added)*
+**Wednesday** (data wrangling with dplyr)
+  -   day 3 [slides](slides/day3.html){:target="_blank"}, [activity](activity/day3_activity.Rmd)
