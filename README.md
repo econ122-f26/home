@@ -3,11 +3,12 @@ instructor contact info, office hours, tutor sessions, textbooks, and
 grading policies.
 
 ------------------------------------------------------------------------
-### Assignments due
+### Important Dates
 
 - Problem Set 1 (link TBD) (due **09/18**)
 - Team Project 1 (link TBD) (due **09/25**)
 - Problem Set 2 (link TBD) (due **10/02**)
+- Midterm 1 (**10/05**)
 
 ------------------------------------------------------------------------
 ### Week 1 (08/31)

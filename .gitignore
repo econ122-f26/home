@@ -71,8 +71,9 @@ autograder_templates/
 # repos (separate GitHub repos, e.g. econ122-f26/day3-activity-template),
 # not published from this site. Day 1 is the exception: async, pre-class
 # setup with no submission, so it stays a direct link/file as before.
-# ps/*.Rmd (student version, not just *_sol.*) is included here too, since
-# problem sets never get committed to this repo at all under this model.
+# Problem sets never get committed to this repo at all under this model -
+# ignore everything in ps/ (not just *.Rmd - the knitted .md/.html output
+# needs to be caught too), not just *_sol.*.
 activity/*_activity.Rmd
 !activity/day1_activity.Rmd
-ps/*.Rmd
+ps/*
