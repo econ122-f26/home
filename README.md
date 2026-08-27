@@ -20,7 +20,7 @@ grading policies.
     the [setup guide](https://github.com/econ122-f26/github-classroom-for-students).
 -   Then, work through the [Day 1 activity](activity/day1_activity.Rmd) on
     your own (R basics exercises).
--   Budget 60–90 minutes total. Come to office hours or email me if you get stuck.
+-   Budget 60–90 minutes total. Email me if you get stuck.
 
 **Wednesday** (first class meeting — reproducibility, R Markdown)
 -   before class:

@@ -2,7 +2,6 @@
 title: "Week 1, Day 1: Setup + R Basics (self-guided)"
 subtitle: "Foundations of Data Science with R"
 author: "Your Name"
-date: "`r Sys.Date()`"
 output: github_document
 ---
 
