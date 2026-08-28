@@ -5,7 +5,7 @@ grading policies.
 ------------------------------------------------------------------------
 ### Important Dates
 
-- Problem Set 1 (link TBD) (due **09/18**)
+- [Problem Set 1](https://classroom50.org/econ122-f26/econ122-f26/assignments/ps1/accept) (due **09/18**)
 - Team Project 1 (link TBD) (due **09/25**)
 - Problem Set 2 (link TBD) (due **10/02**)
 - Midterm 1 (**10/05**)
@@ -27,7 +27,7 @@ grading policies.
     -   Make sure Day 1 setup is complete — bring a working R/RStudio/Git
         install to class.
 -   in class:
-    -   day 2 [slides](slides/day2.html){:target="_blank"}, activity (link TBD)
+    -   day 2 [slides](slides/day2.html){:target="_blank"}, [activity](https://classroom50.org/econ122-f26/econ122-f26/assignments/day2-activity/accept)
 
 ------------------------------------------------------------------------
 ### Week 2 (09/07)
@@ -38,7 +38,7 @@ grading policies.
   - Labor Day!!
 
 **Wednesday** (data wrangling with dplyr)
-  -   day 3 [slides](slides/day3.html){:target="_blank"}, activity (link TBD)
+  -   day 3 [slides](slides/day3.html){:target="_blank"}, [activity](https://classroom50.org/econ122-f26/econ122-f26/assignments/day3-activity/accept)
 
 ------------------------------------------------------------------------
 ### Week 3 (09/14)
@@ -46,9 +46,9 @@ grading policies.
 **Readings:** Ch 3, 7, 12, 13 of R4DS
 
 **Monday** (reshaping/joining)
-  -   day 4 [slides](slides/day4.html){:target="_blank"}, activity (link TBD)
+  -   day 4 [slides](slides/day4.html){:target="_blank"}, [activity](https://classroom50.org/econ122-f26/econ122-f26/assignments/day4-activity/accept)
   -   discuss Team Project 1 (details to come)
 
 **Wednesday** (exploratory data analysis (EDA))
-  -   day 5 [slides](slides/day5.html){:target="_blank"}, activity (link TBD)
+  -   day 5 [slides](slides/day5.html){:target="_blank"}, [activity](https://classroom50.org/econ122-f26/econ122-f26/assignments/day5-activity/accept)
   -   **reminder:** Problem Set 1 due Friday 09/18
