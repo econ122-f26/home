@@ -19,7 +19,7 @@ this is ready to convert to PDF/docx and link from the README.
 **Course Tutors:**
 
 - Leo Furr — Sunday, 8:00-10:00 PM, BC 35
-- Pranav Singhvi — Thursday, 6:00-8:00 PM, room TBD
+- Pranav Singhvi — Thursday, 6:00-8:00 PM, BC 35
 
 **Course Website:** A [GitHub page](https://econ122-f26.github.io/home/) with course materials is maintained.
 
