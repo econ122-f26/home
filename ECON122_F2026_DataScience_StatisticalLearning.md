@@ -16,7 +16,7 @@ this is ready to convert to PDF/docx and link from the README.
 - **CM-01:** Mo/We, 09:35 AM - 10:50 AM, BC34
 - **CM-02:** Mo/We, 11:10 AM - 12:25 PM, BC34
 
-**Course Tutors:** TBD
+**Course Tutors:** Leo Furr — Sunday 8:00-10:00 PM, BC 35
 
 **Course Website:** A [GitHub page](https://econ122-f26.github.io/home/) with course materials is maintained.
 
