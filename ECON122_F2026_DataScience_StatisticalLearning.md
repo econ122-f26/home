@@ -82,12 +82,12 @@ Upon successful completion of this course, students will be able to:
 - **Exams:**
   - Midterm 1: October 5, 2026
   - Midterm 2: December 2, 2026
-- **Attendance (5%):** Physical attendance, plus occasional random
-  spot-checks during the activity period, where a student is asked to
-  briefly walk through their work and any issues they've run into.
+- **Attendance (5%):** Physical attendance.
 - **Activities (5%):** Submitting the in-class activity to your
   assignment repo each session, graded on completion rather than
-  correctness.
+  correctness, plus occasional random spot-checks during the activity
+  period, where a student is asked to briefly walk through their work
+  and any issues they've run into.
 - **Problem Sets:**
   - Assigned regularly on GitHub.
   - Collaboration is allowed, but submissions must be individual.
