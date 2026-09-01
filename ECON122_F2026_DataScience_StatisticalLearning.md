@@ -1,8 +1,3 @@
-<!--
-DRAFT — not yet finalized. Items marked TBD still need your input before
-this is ready to convert to PDF/docx and link from the README.
--->
-
 # ECON 122: Data Science and Statistical Learning
 
 **Claremont McKenna College, Fall 2026**
