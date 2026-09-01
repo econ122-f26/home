@@ -38,7 +38,7 @@ instructor contact info, office hours, tutor sessions, textbooks, and
   - Labor Day!!
 
 **Wednesday** (data wrangling with dplyr)
-  -   day 3 [slides](slides/day3.html){:target="_blank"}, [activity](https://classroom50.org/econ122-f26/econ122-f26/assignments/day3-activity/accept)
+  -   day 3 [slides](slides/day3.html){:target="_blank"}, activity (link TBD)
 
 ------------------------------------------------------------------------
 ### Week 3 (09/14)
@@ -46,9 +46,9 @@ instructor contact info, office hours, tutor sessions, textbooks, and
 **Readings:** Ch 3, 7, 12, 13 of R4DS
 
 **Monday** (reshaping/joining)
-  -   day 4 [slides](slides/day4.html){:target="_blank"}, [activity](https://classroom50.org/econ122-f26/econ122-f26/assignments/day4-activity/accept)
+  -   day 4 [slides](slides/day4.html){:target="_blank"}, activity (link TBD)
   -   discuss Team Project 1 (details to come)
 
 **Wednesday** (exploratory data analysis (EDA))
-  -   day 5 [slides](slides/day5.html){:target="_blank"}, [activity](https://classroom50.org/econ122-f26/econ122-f26/assignments/day5-activity/accept)
+  -   day 5 [slides](slides/day5.html){:target="_blank"}, activity (link TBD)
   -   **reminder:** Problem Set 1 due Friday 09/18
