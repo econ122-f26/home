@@ -1,6 +1,6 @@
 See the [Syllabus](ECON122_F2026_DataScience_StatisticalLearning.md) for
 instructor contact info, office hours, tutor sessions, textbooks, and
-grading policies.
+[grading policies](ECON122_F2026_DataScience_StatisticalLearning.md#evaluation-structure).
 
 ------------------------------------------------------------------------
 ### Important Dates
