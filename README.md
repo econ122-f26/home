@@ -38,7 +38,7 @@ instructor contact info, office hours, tutor sessions, textbooks, and
   - Labor Day!!
 
 **Wednesday** (data wrangling with dplyr)
-  -   day 3 [slides](slides/day3.html){:target="_blank"}, activity (link TBD)
+  -   day 3 [slides](slides/day3.html){:target="_blank"}, [activity](https://classroom50.org/econ122-f26/econ122-f26/assignments/day3-activity/accept)
 
 ------------------------------------------------------------------------
 ### Week 3 (09/14)

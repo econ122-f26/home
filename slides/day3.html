@@ -3210,18 +3210,52 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; }
 <slide class=""><hgroup><h2>What is <code>dplyr</code>?</h2></hgroup><article  id="what-is-dplyr">
 
 <ul>
-<li>Now that we’ve set up all our tools we want to get our hands dirty with data.</li>
-<li><code>dplyr</code> is a powerful R package for data wrangling.</li>
-<li>It provides a consistent and intuitive set of &ldquo;verbs&rdquo; for common data-wrangling tasks.</li>
-<li>It is a core part of the <code>tidyverse</code>, a collection of packages designed for data science.</li>
+<li><code>dplyr</code>: an R package for data wrangling
+
+<ul>
+<li>Time to get our hands dirty with data</li>
+<li>Part of the <code>tidyverse</code> collection of data science packages</li>
+</ul></li>
+<li>A consistent set of &ldquo;verbs&rdquo; for common wrangling tasks
+
+<ul>
+<li>Each verb does one job: choose columns, choose rows, reorder, add columns, condense</li>
+<li>Today: <code>select()</code>, <code>rename()</code>, <code>filter()</code>, <code>arrange()</code>, <code>mutate()</code>, <code>summarize()</code>, <code>group_by()</code></li>
+</ul></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Installing &amp; Loading a Package</h2></hgroup><article  id="installing-loading-a-package">
+
+<ul>
+<li>Before you can use any package, it must be <strong>installed</strong> (once per computer) and <strong>loaded</strong> (every R session).</li>
+</ul>
+
+<pre class = 'prettyprint lang-r'>&gt; # Install once per computer — after it&#39;s installed, you don&#39;t need to run this again
+&gt; install.packages(&quot;dplyr&quot;)
+&gt; 
+&gt; # Load every time you start a new R session and want to use it
+&gt; library(dplyr)</pre>
+
+<ul>
+<li><p>Sometimes in activities/problem sets I’ll do this for you but it’s not always the case. When working on your group projects you’ll have to do it on your own</p></li>
+<li><p>RStudio often notices a <code>library()</code> call for a package you don’t have and offers to install it for you (a yellow bar at the top of the editor) — handy, but not guaranteed to show up on every setup, so know how to run <code>install.packages()</code> yourself too.</p></li>
 </ul>
 
 </article></slide><slide class=""><hgroup><h2>The <code>tidyverse</code> Philosophy</h2></hgroup><article  id="the-tidyverse-philosophy">
 
 <ul>
-<li>Focus on consistency and readability.</li>
-<li>Use the pipe operator, <code>%&gt;%</code>, to chain multiple operations together.</li>
-<li>The output of one function becomes the first argument of the next, making code easier to read from left to right.</li>
+<li>Consistency and readability
+
+<ul>
+<li>Shared naming and argument conventions across packages</li>
+<li>Code reads almost like plain English</li>
+</ul></li>
+<li>Chain operations with the pipe operator, <code>%&gt;%</code>
+
+<ul>
+<li>Output of one function feeds into the next</li>
+<li>Read top-to-bottom, not nested inside each other</li>
+</ul></li>
 </ul>
 
 </article></slide><slide class=""><hgroup><h2>The Pipe Operator (<code>%&gt;%</code>)</h2></hgroup><article  id="the-pipe-operator" class="smaller">
@@ -3427,42 +3461,24 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; }
 <p><strong>Example:</strong> These two lines do the same thing:</p>
 
 <pre class = 'prettyprint lang-r'>&gt; # Messy: repeats the column name for every value
-&gt; starwars %&gt;% filter(hair_color == &quot;brown&quot; | hair_color == &quot;black&quot;)
-# A tibble: 31 × 14
-   name     height  mass hair_color skin_color eye_color birth_year sex   gender
-   &lt;chr&gt;     &lt;int&gt; &lt;dbl&gt; &lt;chr&gt;      &lt;chr&gt;      &lt;chr&gt;          &lt;dbl&gt; &lt;chr&gt; &lt;chr&gt; 
- 1 Leia Or…    150  49   brown      light      brown           19   fema… femin…
- 2 Beru Wh…    165  75   brown      light      blue            47   fema… femin…
- 3 Biggs D…    183  84   black      light      brown           24   male  mascu…
- 4 Chewbac…    228 112   brown      unknown    blue           200   male  mascu…
- 5 Han Solo    180  80   brown      fair       brown           29   male  mascu…
- 6 Wedge A…    170  77   brown      fair       hazel           21   male  mascu…
- 7 Jek Ton…    180 110   brown      fair       blue            NA   &lt;NA&gt;  &lt;NA&gt;  
- 8 Boba Fe…    183  78.2 black      fair       brown           31.5 male  mascu…
- 9 Lando C…    177  79   black      dark       brown           31   male  mascu…
-10 Arvel C…     NA  NA   brown      fair       brown           NA   male  mascu…
-# ℹ 21 more rows
-# ℹ 5 more variables: homeworld &lt;chr&gt;, species &lt;chr&gt;, films &lt;list&gt;,
-#   vehicles &lt;list&gt;, starships &lt;list&gt;
+&gt; starwars %&gt;% filter(hair_color == &quot;brown&quot; | hair_color == &quot;black&quot;) %&gt;%
++   select(name, hair_color) %&gt;% head(3)
+# A tibble: 3 × 2
+  name               hair_color
+  &lt;chr&gt;              &lt;chr&gt;     
+1 Leia Organa        brown     
+2 Beru Whitesun Lars brown     
+3 Biggs Darklighter  black     
 &gt; 
 &gt; # Cleaner: %in% checks against a whole set at once
-&gt; starwars %&gt;% filter(hair_color %in% c(&quot;brown&quot;, &quot;black&quot;))
-# A tibble: 31 × 14
-   name     height  mass hair_color skin_color eye_color birth_year sex   gender
-   &lt;chr&gt;     &lt;int&gt; &lt;dbl&gt; &lt;chr&gt;      &lt;chr&gt;      &lt;chr&gt;          &lt;dbl&gt; &lt;chr&gt; &lt;chr&gt; 
- 1 Leia Or…    150  49   brown      light      brown           19   fema… femin…
- 2 Beru Wh…    165  75   brown      light      blue            47   fema… femin…
- 3 Biggs D…    183  84   black      light      brown           24   male  mascu…
- 4 Chewbac…    228 112   brown      unknown    blue           200   male  mascu…
- 5 Han Solo    180  80   brown      fair       brown           29   male  mascu…
- 6 Wedge A…    170  77   brown      fair       hazel           21   male  mascu…
- 7 Jek Ton…    180 110   brown      fair       blue            NA   &lt;NA&gt;  &lt;NA&gt;  
- 8 Boba Fe…    183  78.2 black      fair       brown           31.5 male  mascu…
- 9 Lando C…    177  79   black      dark       brown           31   male  mascu…
-10 Arvel C…     NA  NA   brown      fair       brown           NA   male  mascu…
-# ℹ 21 more rows
-# ℹ 5 more variables: homeworld &lt;chr&gt;, species &lt;chr&gt;, films &lt;list&gt;,
-#   vehicles &lt;list&gt;, starships &lt;list&gt;</pre>
+&gt; starwars %&gt;% filter(hair_color %in% c(&quot;brown&quot;, &quot;black&quot;)) %&gt;%
++   select(name, hair_color) %&gt;% head(3)
+# A tibble: 3 × 2
+  name               hair_color
+  &lt;chr&gt;              &lt;chr&gt;     
+1 Leia Organa        brown     
+2 Beru Whitesun Lars brown     
+3 Biggs Darklighter  black     </pre>
 
 </article></slide><slide class=""><hgroup><h2><code>arrange()</code>: Reordering Rows</h2></hgroup><article  id="arrange-reordering-rows" class="smaller">
 
@@ -3670,24 +3686,20 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; }
 
 <pre class = 'prettyprint lang-r'>&gt; starwars %&gt;%
 +   group_by(species) %&gt;%
-+   mutate(species_average_mass = mean(mass, na.rm = TRUE)) %&gt;%
-+   mutate(mass_proportion = (mass / species_average_mass) * 100) %&gt;%
-+   select(name, species, mass, species_average_mass, mass_proportion)
++   mutate(species_average_mass = mean(mass, na.rm = TRUE),
++          mass_proportion = (mass / species_average_mass) * 100) %&gt;%
++   select(name, species, mass, species_average_mass, mass_proportion) %&gt;%
++   print(n = 5)
 # A tibble: 87 × 5
 # Groups:   species [38]
-   name               species  mass species_average_mass mass_proportion
-   &lt;chr&gt;              &lt;chr&gt;   &lt;dbl&gt;                &lt;dbl&gt;           &lt;dbl&gt;
- 1 Luke Skywalker     Human      77                 81.3            94.7
- 2 C-3PO              Droid      75                 69.8           108. 
- 3 R2-D2              Droid      32                 69.8            45.9
- 4 Darth Vader        Human     136                 81.3           167. 
- 5 Leia Organa        Human      49                 81.3            60.3
- 6 Owen Lars          Human     120                 81.3           148. 
- 7 Beru Whitesun Lars Human      75                 81.3            92.2
- 8 R5-D4              Droid      32                 69.8            45.9
- 9 Biggs Darklighter  Human      84                 81.3           103. 
-10 Obi-Wan Kenobi     Human      77                 81.3            94.7
-# ℹ 77 more rows</pre>
+  name           species  mass species_average_mass mass_proportion
+  &lt;chr&gt;          &lt;chr&gt;   &lt;dbl&gt;                &lt;dbl&gt;           &lt;dbl&gt;
+1 Luke Skywalker Human      77                 81.3            94.7
+2 C-3PO          Droid      75                 69.8           108. 
+3 R2-D2          Droid      32                 69.8            45.9
+4 Darth Vader    Human     136                 81.3           167. 
+5 Leia Organa    Human      49                 81.3            60.3
+# ℹ 82 more rows</pre>
 
 </article></slide><slide class=""><hgroup><h2>Counting with <code>n()</code></h2></hgroup><article  id="counting-with-n" class="smaller">
 
