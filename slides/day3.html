@@ -3230,15 +3230,15 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; }
 
 <ul>
 <li>&ldquo;Base R&rdquo; = functions built into R itself, no extra packages needed</li>
-<li><code>dplyr</code> is an add-on package: same wrangling, more consistent and readable syntax</li>
+<li>Yes there are already ways to data wrangle but it doesnt read naturally</li>
 </ul></li>
-<li>A consistent set of &ldquo;verbs&rdquo; for common wrangling tasks — each does one job, e.g. <code>select()</code> columns, <code>filter()</code> rows, <code>mutate()</code> new columns</li>
 <li><strong>Example goal:</strong> find tall characters’ names and heights
 
 <ul>
 <li>Base R: <code>starwars[starwars$height &gt; 150, c(&quot;name&quot;, &quot;height&quot;)]</code></li>
 <li><code>dplyr</code>: <code>starwars %&gt;% filter(height &gt; 150) %&gt;% select(name, height)</code></li>
 </ul></li>
+<li>A consistent set of &ldquo;verbs&rdquo; for common wrangling tasks — each does one job, e.g. <code>select()</code> columns, <code>filter()</code> rows, <code>mutate()</code> new columns</li>
 </ul>
 
 </article></slide><slide class=""><hgroup><h2>Installing &amp; Loading a Package</h2></hgroup><article  id="installing-loading-a-package">
