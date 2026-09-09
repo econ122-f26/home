@@ -3207,20 +3207,37 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; }
           </hgroup>
   </slide>
 
-<slide class=""><hgroup><h2>What is <code>dplyr</code>?</h2></hgroup><article  id="what-is-dplyr">
+<slide class=""><hgroup><h2>Last Time → Today</h2></hgroup><article  id="last-time-today">
 
 <ul>
-<li><code>dplyr</code>: an R package for data wrangling
+<li>Last time: reproducible reports with R Markdown, version control with Git/GitHub
 
 <ul>
-<li>Time to get our hands dirty with data</li>
-<li>Part of the <code>tidyverse</code> collection of data science packages</li>
+<li>You now have the tools to write, save, and share your work</li>
 </ul></li>
-<li>A consistent set of &ldquo;verbs&rdquo; for common wrangling tasks
+<li>Today: put those tools to use on real data
 
 <ul>
-<li>Each verb does one job: choose columns, choose rows, reorder, add columns, condense</li>
-<li>Today: <code>select()</code>, <code>rename()</code>, <code>filter()</code>, <code>arrange()</code>, <code>mutate()</code>, <code>summarize()</code>, <code>group_by()</code></li>
+<li><code>dplyr</code>: wrangling data into the shape you need before you can analyze it</li>
+</ul></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>What is <code>dplyr</code>?</h2></hgroup><article  id="what-is-dplyr">
+
+<ul>
+<li><code>dplyr</code>: an R package for data wrangling, part of the <code>tidyverse</code> collection of data science packages</li>
+<li>Wait — doesn’t R already have a way to do this? Why do we need a package?
+
+<ul>
+<li>&ldquo;Base R&rdquo; = functions built into R itself, no extra packages needed</li>
+<li><code>dplyr</code> is an add-on package: same wrangling, more consistent and readable syntax</li>
+</ul></li>
+<li>A consistent set of &ldquo;verbs&rdquo; for common wrangling tasks — each does one job, e.g. <code>select()</code> columns, <code>filter()</code> rows, <code>mutate()</code> new columns</li>
+<li><strong>Example goal:</strong> find tall characters’ names and heights
+
+<ul>
+<li>Base R: <code>starwars[starwars$height &gt; 150, c(&quot;name&quot;, &quot;height&quot;)]</code></li>
+<li><code>dplyr</code>: <code>starwars %&gt;% filter(height &gt; 150) %&gt;% select(name, height)</code></li>
 </ul></li>
 </ul>
 
