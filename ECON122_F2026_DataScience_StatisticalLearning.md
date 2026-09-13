@@ -56,11 +56,15 @@ Upon successful completion of this course, students will be able to:
 
 ## Required Materials
 
-- **Textbook:** *R for Data Science* by Hadley Wickham & Garrett Grolemund.
-  Available for free online.
+- **Textbook:** *R for Data Science* (**1st edition**) by Hadley Wickham &
+  Garrett Grolemund. Available free online at <http://r4ds.had.co.nz/>. All
+  chapter numbers in the course schedule refer to this 1st edition — the
+  newer 2nd edition at r4ds.hadley.nz renumbers the chapters, so make sure
+  you are reading from the r4ds.had.co.nz site.
 - **Textbook:** *An Introduction to Statistical Learning* by Gareth James,
   Daniela Witten, Trevor Hastie, and Robert Tibshirani. This book provides a
-  more in-depth theoretical foundation. A free PDF is available online.
+  more in-depth theoretical foundation. A free PDF is available at
+  <https://hastie.su.domains/ISLR2/ISLRv2_corrected_June_2023.pdf.download.html>.
 - **Software:** R, RStudio (Desktop Edition), Git, and a GitHub account. All
   are free and open-source.
 
