@@ -3,14 +3,6 @@ instructor contact info, office hours, tutor sessions, textbooks, and
 [grading policies](ECON122_F2026_DataScience_StatisticalLearning.md#evaluation-structure).
 
 ------------------------------------------------------------------------
-### Textbooks
-
-- [R for Data Science](http://r4ds.had.co.nz/) (**1st edition** — all "R4DS"
-  chapter numbers below refer to this edition, not the newer 2nd edition at
-  r4ds.hadley.nz)
-- [An Introduction to Statistical Learning](https://hastie.su.domains/ISLR2/ISLRv2_corrected_June_2023.pdf.download.html)
-
-------------------------------------------------------------------------
 ### Important Dates
 
 - [Problem Set 1](https://classroom50.org/econ122-f26/econ122-f26/assignments/ps1/accept) (due **09/18**)
