@@ -53,9 +53,9 @@ instructor contact info, office hours, tutor sessions, textbooks, and
 **Monday** (reshaping/joining)
   -   *Reading:* R4DS Ch 12 (tidy data), Ch 13 (relational data)
   -   day 4 [slides](slides/day4.html){:target="_blank"}, activity (link TBD)
+  -   **reminder:** Problem Set 1 due Friday 09/18
 
 **Wednesday** (exploratory data analysis (EDA))
   -   *Reading:* R4DS Ch 3 (data visualisation), Ch 7 (EDA)
   -   day 5 [slides](slides/day5.html){:target="_blank"}, activity (link TBD)
   -   discuss Team Project 1 (details to come)
-  -   **reminder:** Problem Set 1 due Friday 09/18
