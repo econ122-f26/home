@@ -3243,29 +3243,28 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; }
 <p>Tidy data is essential because:</p>
 
 <ul>
-<li>It makes data manipulation and analysis easier and more intuitive.</li>
+<li>It makes data wrangling and analysis easier and more intuitive.</li>
 <li>It works seamlessly with other <code>tidyverse</code> packages, like <code>ggplot2</code> and <code>dplyr</code>.</li>
 <li>It’s a foundational concept for reproducible data science.</li>
 </ul>
 
 </article></slide><slide class=""><hgroup><h2>An Untidy Example: Weather Data</h2></hgroup><article  id="an-untidy-example-weather-data" class="smaller">
 
-<p>This dataset is untidy because the column headers <code>Jan</code>, <code>Feb</code>, and <code>Mar</code> are actually <strong>values</strong> of a variable called &ldquo;month&rdquo;.</p>
-
-<pre class = 'prettyprint lang-r'>weather_data &lt;- tibble(
-  city = c(&quot;NY&quot;, &quot;LA&quot;),
-  year = c(2023, 2023),
-  Jan = c(30, 60),
-  Feb = c(35, 65),
-  Mar = c(45, 70)
-)
-weather_data</pre>
-
 <pre >## # A tibble: 2 × 5
 ##   city   year   Jan   Feb   Mar
 ##   &lt;chr&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt;
 ## 1 NY     2023    30    35    45
 ## 2 LA     2023    60    65    70</pre>
+
+<p><strong>Why this is untidy:</strong></p>
+
+<ul>
+<li>The column headers <code>Jan</code>, <code>Feb</code>, and <code>Mar</code> are actually <strong>values</strong> of a variable called &ldquo;month&rdquo;.</li>
+<li>&ldquo;Month&rdquo; should be a column, not three separate columns.</li>
+<li>Very common for Excel/Sheets type data.</li>
+</ul>
+
+<p><strong>Think about:</strong></p>
 
 <ul>
 <li>How would you get the average temperature by month?</li>
@@ -3275,8 +3274,6 @@ weather_data</pre>
 </article></slide><slide class=""><hgroup><h2>The Tidy Version</h2></hgroup><article  id="the-tidy-version" class="smaller">
 
 <p>The tidy version of this data has one column for <code>month</code> and another for <code>temperature</code>.</p>
-
-<pre class = 'prettyprint lang-r'>weather_tidy</pre>
 
 <pre >## # A tibble: 6 × 4
 ##   city   year month temperature
@@ -3288,6 +3285,8 @@ weather_data</pre>
 ## 5 NY     2023 Mar            45
 ## 6 LA     2023 Mar            70</pre>
 
+<p>Now <code>month</code> is a column, so we can <code>group_by()</code> it:</p>
+
 <pre class = 'prettyprint lang-r'>weather_tidy %&gt;% group_by(month) %&gt;% summarize(avg_temp=mean(temperature))</pre>
 
 <pre >## # A tibble: 3 × 2
@@ -3296,10 +3295,6 @@ weather_data</pre>
 ## 1 Feb       50  
 ## 2 Jan       45  
 ## 3 Mar       57.5</pre>
-
-<ul>
-<li>Now we can easily use</li>
-</ul>
 
 </article></slide><slide class=""><hgroup><h2>Why the Tidy Version is Better</h2></hgroup><article  id="why-the-tidy-version-is-better">
 
@@ -3320,17 +3315,7 @@ weather_data</pre>
 
 </article></slide><slide class=""><hgroup><h2><code>pivot_longer()</code>: Wide to Long</h2></hgroup><article  id="pivot_longer-wide-to-long">
 
-<p><code>pivot_longer()</code> takes multiple columns and collapses them into key-value pairs, making the dataset longer.</p>
-
-<h3>Syntax</h3>
-
-<p><code>pivot_longer(data, cols, names_to, values_to)</code></p>
-
-</article></slide><slide class=""><hgroup><h2><code>pivot_longer()</code> Live Example: The Code</h2></hgroup><article  id="pivot_longer-live-example-the-code" class="smaller">
-
-<p>We specify which columns to pivot (<code>Jan:Mar</code>), what to name the new key column (<code>month</code>), and what to name the new value column (<code>temperature</code>).</p>
-
-<pre class = 'prettyprint lang-r'>weather_data</pre>
+<p>Takes columns that are really <em>values</em> and collapses them into two new columns.</p>
 
 <pre >## # A tibble: 2 × 5
 ##   city   year   Jan   Feb   Mar
@@ -3338,8 +3323,24 @@ weather_data</pre>
 ## 1 NY     2023    30    35    45
 ## 2 LA     2023    60    65    70</pre>
 
+<h3>Syntax</h3>
+
+<p><code>pivot_longer(data, cols, names_to, values_to)</code></p>
+
+<ul>
+<li><code>cols</code> — which columns are really <em>values</em>? (<code>Jan:Mar</code>)</li>
+<li><code>names_to</code> — name for the column of old names (<code>month</code>)</li>
+<li><code>values_to</code> — name for the column of numbers (<code>temperature</code>)</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2><code>pivot_longer()</code>: Example</h2></hgroup><article  id="pivot_longer-example" class="smaller">
+
 <pre class = 'prettyprint lang-r'>weather_data %&gt;%
-  pivot_longer(cols = Jan:Mar,names_to = &quot;month&quot;,values_to = &quot;temperature&quot;)</pre>
+  pivot_longer(
+    cols = Jan:Mar,
+    names_to = &quot;month&quot;,
+    values_to = &quot;temperature&quot;
+  )</pre>
 
 <pre >## # A tibble: 6 × 4
 ##   city   year month temperature
@@ -3351,19 +3352,14 @@ weather_data</pre>
 ## 5 LA     2023 Feb            65
 ## 6 LA     2023 Mar            70</pre>
 
-</article></slide><slide class=""><hgroup><h2><code>pivot_wider()</code>: Long to Wide</h2></hgroup><article  id="pivot_wider-long-to-wide">
+<ul>
+<li>2 rows x 5 columns became 6 rows x 4 columns</li>
+<li>Still exactly <strong>6 temperature readings</strong> (2 cities x 3 months) — <code>city</code> and <code>year</code> are just repeated once per month now, instead of stated once per city</li>
+</ul>
 
-<p><code>pivot_wider()</code> does the opposite: it takes a long format and spreads it out into a wide format based on key-value pairs.</p>
+</article></slide><slide class=""><hgroup><h2><code>pivot_wider()</code>: Long to Wide</h2></hgroup><article  id="pivot_wider-long-to-wide" class="smaller">
 
-<h3>Syntax</h3>
-
-<p><code>pivot_wider(data, names_from, values_from)</code></p>
-
-</article></slide><slide class=""><hgroup><h2><code>pivot_wider()</code> Live Example: The Data</h2></hgroup><article  id="pivot_wider-live-example-the-data" class="smaller">
-
-<p>Let’s take our tidy <code>weather_tidy</code> and turn it back into a wide format.</p>
-
-<pre class = 'prettyprint lang-r'>weather_tidy</pre>
+<p>Does the opposite: spreads one column of names and one column of values back out into multiple columns.</p>
 
 <pre >## # A tibble: 6 × 4
 ##   city   year month temperature
@@ -3375,9 +3371,16 @@ weather_data</pre>
 ## 5 NY     2023 Mar            45
 ## 6 LA     2023 Mar            70</pre>
 
-</article></slide><slide class=""><hgroup><h2><code>pivot_wider()</code> Live Example: The Code and Result</h2></hgroup><article  id="pivot_wider-live-example-the-code-and-result" class="smaller">
+<h3>Syntax</h3>
 
-<p>The <code>names_from</code> and <code>values_from</code> arguments tell the function which columns to use to create the new columns and fill in the values.</p>
+<p><code>pivot_wider(data, names_from, values_from)</code></p>
+
+<ul>
+<li><code>names_from</code> — which column holds the new column names? (<code>month</code>)</li>
+<li><code>values_from</code> — which column holds the numbers to fill them? (<code>temperature</code>)</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2><code>pivot_wider()</code>: Example</h2></hgroup><article  id="pivot_wider-example">
 
 <pre class = 'prettyprint lang-r'>weather_tidy %&gt;%
   pivot_wider(
@@ -3391,18 +3394,23 @@ weather_data</pre>
 ## 1 NY     2023    30    35    45
 ## 2 LA     2023    60    65    70</pre>
 
+<ul>
+<li>6 rows x 4 columns became 2 rows x 5 columns</li>
+<li>Exactly reverses the <code>pivot_longer()</code> we just did — <code>city</code> and <code>year</code> stop repeating, and we are back to the original wide layout</li>
+</ul>
+
 </article></slide><slide class=""><hgroup><h2>Part 3: Combining Datasets with Joins</h2></hgroup><article  id="part-3-combining-datasets-with-joins">
 
 <p>Joins are a way to combine two data frames based on a common variable, or &ldquo;key&rdquo;. They are performed using the <code>dplyr</code> package.</p>
 
 </article></slide><slide class=""><hgroup><h2>Mutating Joins</h2></hgroup><article  id="mutating-joins">
 
-<p><strong>Mutating joins</strong> add new columns from one data frame to another. The original data from the &ldquo;left&rdquo; table is preserved to varying degrees.</p>
+<p><strong>Mutating joins</strong> add new columns from one table to another, matching rows on a shared key.</p>
 
 <ul>
-<li><code>inner_join()</code></li>
-<li><code>left_join()</code></li>
-<li><code>full_join()</code></li>
+<li><code>inner_join(x, y, by = &quot;key&quot;)</code> — keep only rows with a match in <strong>both</strong></li>
+<li><code>left_join(x, y, by = &quot;key&quot;)</code> — keep <strong>all</strong> rows of <code>x</code>, <code>NA</code> where no match</li>
+<li><code>full_join(x, y, by = &quot;key&quot;)</code> — keep <strong>all</strong> rows of both, <code>NA</code> where no match</li>
 </ul>
 
 </article></slide><slide class=""><hgroup><h2>Our Example Datasets: The Claremont Colleges</h2></hgroup><article  id="our-example-datasets-the-claremont-colleges" class="smaller">
@@ -3432,7 +3440,7 @@ weather_data</pre>
 
 </article></slide><slide class=""><hgroup><h2><code>inner_join()</code></h2></hgroup><article  id="inner_join" class="smaller">
 
-<p><code>inner_join()</code> keeps only the rows that have a match in <strong>both</strong> data frames.</p>
+<p>Which students have a college we know about?</p>
 
 <pre class = 'prettyprint lang-r'>students %&gt;%
   inner_join(colleges, by = &quot;college_id&quot;)</pre>
@@ -3445,11 +3453,15 @@ weather_data</pre>
 ## 3        103 Charlie          1 Pomona           
 ## 4        104 David            3 Claremont McKenna</pre>
 
-<p>Note: Eve (student_id 105) and Pitzer College were dropped because they did not have a match.</p>
+<ul>
+<li><code>college_name</code> is added — that is the &ldquo;mutating&rdquo; part</li>
+<li>Eve is dropped: her <code>college_id</code> (5) is not in <code>colleges</code></li>
+<li>Pitzer is dropped too: no student has <code>college_id</code> 4</li>
+</ul>
 
 </article></slide><slide class=""><hgroup><h2><code>left_join()</code></h2></hgroup><article  id="left_join" class="smaller">
 
-<p><code>left_join()</code> keeps <strong>all rows from the first (left) data frame</strong>, and only the matching rows from the second. If there’s no match, it fills with <code>NA</code>.</p>
+<p>Same question, but keep every student.</p>
 
 <pre class = 'prettyprint lang-r'>students %&gt;%
   left_join(colleges, by = &quot;college_id&quot;)</pre>
@@ -3463,11 +3475,15 @@ weather_data</pre>
 ## 4        104 David            3 Claremont McKenna
 ## 5        105 Eve              5 &lt;NA&gt;</pre>
 
-<p>Eve is kept, but her <code>college_name</code> is <code>NA</code> because there is no matching <code>college_id</code> in the <code>colleges</code> table.</p>
+<ul>
+<li>All 5 students survive — <code>students</code> is the left table</li>
+<li>Eve stays, but her <code>college_name</code> is <code>NA</code>: nothing to fill it with</li>
+<li>Pitzer still does not appear — unmatched rows of <code>y</code> are dropped</li>
+</ul>
 
 </article></slide><slide class=""><hgroup><h2><code>full_join()</code></h2></hgroup><article  id="full_join" class="smaller">
 
-<p><code>full_join()</code> keeps <strong>all rows from both data frames</strong>. Where there is no match in either table, it fills with <code>NA</code>.</p>
+<p>Keep everything from both tables.</p>
 
 <pre class = 'prettyprint lang-r'>students %&gt;%
   full_join(colleges, by = &quot;college_id&quot;)</pre>
@@ -3482,16 +3498,22 @@ weather_data</pre>
 ## 5        105 Eve              5 &lt;NA&gt;             
 ## 6         NA &lt;NA&gt;             4 Pitzer</pre>
 
-<p>This includes all students and all colleges, regardless of whether a match exists.</p>
+<ul>
+<li>6 rows: all 5 students <strong>and</strong> Pitzer, which no student attends</li>
+<li>Eve has no <code>college_name</code>; Pitzer has no <code>student_id</code> or <code>name</code></li>
+<li>Any cell with nothing to fill it becomes <code>NA</code></li>
+</ul>
 
 </article></slide><slide class=""><hgroup><h2>A Warning: Joins Can Multiply Rows</h2></hgroup><article  id="a-warning-joins-can-multiply-rows" class="smaller">
 
-<p>If the join key isn’t unique in one of the tables, a match can produce <strong>more than one output row per input row</strong> — students often expect row counts to just add up, and get caught out here.</p>
+<p>If the key is <strong>not unique</strong> in the other table, one row can match several rows.</p>
 
-<pre class = 'prettyprint lang-r'># One extra college row sharing college_id 1 with Pomona
-colleges_dup &lt;- colleges %&gt;% add_row(college_id = 1, college_name = &quot;Pomona (Online)&quot;)
+<pre class = 'prettyprint lang-r'>colleges_dup &lt;- colleges %&gt;%            # a second row also using college_id 1
+  add_row(college_id = 1, college_name = &quot;Pomona (Online)&quot;)
 
-students %&gt;% filter(college_id == 1) %&gt;% inner_join(colleges_dup, by = &quot;college_id&quot;)</pre>
+students %&gt;%
+  filter(college_id == 1) %&gt;%
+  inner_join(colleges_dup, by = &quot;college_id&quot;)</pre>
 
 <pre >## # A tibble: 4 × 4
 ##   student_id name    college_id college_name   
@@ -3501,34 +3523,29 @@ students %&gt;% filter(college_id == 1) %&gt;% inner_join(colleges_dup, by = &qu
 ## 3        103 Charlie          1 Pomona         
 ## 4        103 Charlie          1 Pomona (Online)</pre>
 
-<p>Alice and Charlie (<code>college_id == 1</code>) each get <strong>duplicated</strong>, once per matching row in <code>colleges_dup</code> — 2 students in, but the join produces more than 2 rows out. Always check <code>nrow()</code> before and after a join.</p>
+<ul>
+<li>2 students went in, <strong>4 rows</strong> came out — Alice and Charlie each matched twice</li>
+<li>Sometimes this is what you want (one row per student-course pair, say)</li>
+<li>But often it means a duplicate key you didn’t know about</li>
+<li>Either way, check <code>nrow()</code> before and after — be sure the growth is deliberate</li>
+</ul>
 
 </article></slide><slide class=""><hgroup><h2>Filtering Joins</h2></hgroup><article  id="filtering-joins">
 
-<p><strong>Filtering</strong> joins do not add new columns. They filter the rows of the &ldquo;left&rdquo; data frame based on whether or not they have a match in the &ldquo;right&rdquo; data frame.</p>
+<p>Mutating joins <strong>add columns</strong>. Filtering joins only <strong>keep or drop rows</strong> — the output always has exactly the left table’s columns.</p>
 
 <ul>
-<li><p><strong><code>semi_join()</code></strong> is used to <strong>keep rows</strong> in the left table that have a match in the right table.</p>
-
-<ul>
-<li><strong>Use case:</strong> Identifying records that exist in a &ldquo;master list&rdquo; or checking for valid entries. For example, finding all students who are registered in one of the Claremont Colleges.</li>
-</ul></li>
-<li><p><strong><code>anti_join()</code></strong> is used to <strong>remove rows</strong> from the left table that have a match in the right table.</p>
-
-<ul>
-<li><strong>Use case:</strong> Identifying records that are missing from a &ldquo;master list&rdquo; or finding &ldquo;exceptions&rdquo; or data quality issues. For example, finding all students who are <em>not</em> registered in any of the Claremont Colleges (perhaps they have an invalid college ID or attend an external program).</li>
-</ul></li>
+<li><code>semi_join(x, y)</code> — keep rows of <code>x</code> that <strong>have</strong> a match in <code>y</code></li>
+<li><code>anti_join(x, y)</code> — keep rows of <code>x</code> that have <strong>no</strong> match in <code>y</code></li>
 </ul>
+
+<p>Analogous to <code>filter()</code>, except the criteria come from <strong>another table</strong> rather than a condition you write out.</p>
+
+<p>Think of <code>y</code> as a master list: <code>semi_join()</code> asks who is on it, <code>anti_join()</code> asks who is missing from it.</p>
 
 </article></slide><slide class=""><hgroup><h2><code>semi_join()</code></h2></hgroup><article  id="semi_join" class="smaller">
 
-<p><code>semi_join()</code> keeps all rows from the first (left) data frame that have a match in the second (right) data frame. It’s like a filter.</p>
-
-<p><strong>Important:</strong> unlike a mutating join, <code>semi_join()</code> never adds columns from the right table — the output has <em>exactly</em> the columns <code>students</code> already had, just possibly fewer rows.</p>
-
-<h3>Live Example:</h3>
-
-<p>Find all students who belong to a college in our <code>colleges</code> table.</p>
+<p>Which students belong to a college in our <code>colleges</code> table?</p>
 
 <pre class = 'prettyprint lang-r'>students %&gt;%
   semi_join(colleges, by = &quot;college_id&quot;)</pre>
@@ -3541,15 +3558,23 @@ students %&gt;% filter(college_id == 1) %&gt;% inner_join(colleges_dup, by = &qu
 ## 3        103 Charlie          1
 ## 4        104 David            3</pre>
 
-<p>This returns students who have a matching <code>college_id</code> — notice <code>college_name</code> is <strong>not</strong> in the output, even though it exists in <code>colleges</code>.</p>
+<ul>
+<li>Eve is gone — her <code>college_id</code> (5) matches nothing in <code>colleges</code></li>
+<li><code>college_name</code> is <strong>not</strong> added — same 3 columns as <code>students</code>, fewer rows</li>
+</ul>
+
+<p><strong>Use it when</strong> you want to subset by a list — say, keeping only the transactions from a sample of customers you drew.</p>
+
+<ul>
+<li><code>inner_join()</code> would glue the customer columns onto your transactions</li>
+<li>Worse, a customer listed twice in the sample would duplicate their transactions and quietly inflate every total you compute</li>
+</ul>
+
+<p><code>semi_join()</code> does neither — it just filters.</p>
 
 </article></slide><slide class=""><hgroup><h2><code>anti_join()</code></h2></hgroup><article  id="anti_join" class="smaller">
 
-<p><code>anti_join()</code> keeps all rows from the first (left) data frame that <strong>do not</strong> have a match in the second (right) data frame.</p>
-
-<h3>Live Example:</h3>
-
-<p>Find all students who do not belong to a college in our <code>colleges</code> table.</p>
+<p>Which students do <em>not</em> belong to any college in <code>colleges</code>?</p>
 
 <pre class = 'prettyprint lang-r'>students %&gt;%
   anti_join(colleges, by = &quot;college_id&quot;)</pre>
@@ -3559,7 +3584,12 @@ students %&gt;% filter(college_id == 1) %&gt;% inner_join(colleges_dup, by = &qu
 ##        &lt;dbl&gt; &lt;chr&gt;      &lt;dbl&gt;
 ## 1        105 Eve            5</pre>
 
-<p>This returns the one student, Eve, who has no matching <code>college_id</code>.</p>
+<ul>
+<li>Just Eve — the only student whose <code>college_id</code> matches nothing</li>
+<li>Again: same columns as <code>students</code>, only the row count changed</li>
+</ul>
+
+<p><strong>Use it when</strong> you want what is <em>missing</em>: which students on the roster never submitted PS1, or which orders point to a customer id that does not exist.</p>
 
 </article></slide><slide class=""><hgroup><h2>Summary of Joins</h2></hgroup><article  id="summary-of-joins">
 
