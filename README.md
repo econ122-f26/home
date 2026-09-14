@@ -44,7 +44,7 @@ instructor contact info, office hours, tutor sessions, textbooks, and
 
 **Monday** (reshaping/joining)
   -   *Reading:* R4DS Ch 12 (tidy data), Ch 13 (relational data)
-  -   day 4 [slides](slides/day4.html){:target="_blank"}, activity (link TBD)
+  -   day 4 [slides](slides/day4.html){:target="_blank"}, [activity](https://classroom50.org/econ122-f26/econ122-f26/assignments/day4-activity/accept)
   -   **reminder:** Problem Set 1 due Friday 09/18
 
 **Wednesday** (exploratory data analysis (EDA))
