@@ -77,3 +77,8 @@ instructor contact info, office hours, tutor sessions, textbooks, and
   -   *Reading:* R4DS Ch 14-16 (strings, factors, dates/times)
   -   day 8 slides and activity (links TBD)
   -   **reminder:** Problem Set 2 due Friday 10/02; Midterm 1 in class Monday 10/05
+
+------------------------------------------------------------------------
+### Week 6 (10/05)
+
+**Monday** — **Midterm 1, in class.**
