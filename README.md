@@ -57,8 +57,8 @@ instructor contact info, office hours, tutor sessions, textbooks, and
 ### Week 4 (09/21)
 
 **Monday** (advanced EDA)
-  -   *Reading:* R4DS Ch 7 (EDA), Ch 14-16 (strings, factors, dates/times)
-  -   day 6 slides and activity (links TBD)
+  -   *Reading:* R4DS Ch 7 (EDA)
+  -   day 6 [slides](slides/day6.html){:target="_blank"}, [activity](https://classroom50.org/econ122-f26/econ122-f26/assignments/day6-activity/accept)
   -   **reminder:** Team Project 1 report due Friday 09/25; team defenses in class 09/28
 
 **Wednesday** (advanced wrangling)
