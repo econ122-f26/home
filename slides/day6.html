@@ -3223,50 +3223,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; }
 
 </article></slide><slide class=""><hgroup><h2>Today’s dataset: <code>Credit</code></h2></hgroup><article  id="todays-dataset-credit" class="smaller">
 
-<p>From ISLR2 (our textbook) — 400 credit card customers, one row each. We’ll use it all class.</p>
-
-<table class = 'rmdtable'>
-<tr class="header">
-<th align="left">Variable</th>
-<th align="left">Meaning</th>
-</tr>
-<tr class="odd">
-<td align="left"><code>Income</code></td>
-<td align="left">Income, in $1,000s</td>
-</tr>
-<tr class="even">
-<td align="left"><code>Limit</code></td>
-<td align="left">Credit limit</td>
-</tr>
-<tr class="odd">
-<td align="left"><code>Rating</code></td>
-<td align="left">Credit rating (score)</td>
-</tr>
-<tr class="even">
-<td align="left"><code>Cards</code></td>
-<td align="left">Number of credit cards held</td>
-</tr>
-<tr class="odd">
-<td align="left"><code>Age</code>, <code>Education</code></td>
-<td align="left">Age and schooling, in years</td>
-</tr>
-<tr class="even">
-<td align="left"><code>Own</code>, <code>Student</code>, <code>Married</code></td>
-<td align="left">Yes / No</td>
-</tr>
-<tr class="odd">
-<td align="left"><code>Region</code></td>
-<td align="left">East, South, or West</td>
-</tr>
-<tr class="even">
-<td align="left"><code>Balance</code></td>
-<td align="left"><strong>Average card balance, in $</strong> — our outcome of interest</td>
-</tr>
-</table>
-
-<p><strong>One caveat:</strong> this data is <em>simulated</em>. Any relationship we find was built in by whoever generated it — convenient for learning, but no claim about real borrowers.</p>
-
-</article></slide><slide class=""><hgroup><h2>A first look</h2></hgroup><article  id="a-first-look" class="smaller">
+<p>400 credit card customers from ISLR2 — <code>glimpse()</code> shows what you have:</p>
 
 <pre class = 'prettyprint lang-r'>data(Credit)
 glimpse(Credit)</pre>
@@ -3285,7 +3242,7 @@ glimpse(Credit)</pre>
 ## $ Region    &lt;fct&gt; South, West, West, West, South, South, East, West, South, Ea…
 ## $ Balance   &lt;dbl&gt; 333, 903, 580, 964, 331, 1151, 203, 872, 279, 1350, 1407, 0,…</pre>
 
-<p><code>glimpse()</code> is the fastest way to see what you actually have: 400 rows, 11 columns, and the type of each.</p>
+<p><code>Balance</code> (in $) is our outcome; <code>Income</code> is in <strong>$1,000s</strong>. The data is <em>simulated</em> — fine for learning, no claim about real borrowers.</p>
 
 </article></slide><slide class=""><hgroup><h2>Recap: the EDA loop</h2></hgroup><article  id="recap-the-eda-loop">
 
