@@ -58,7 +58,7 @@ instructor contact info, office hours, tutor sessions, textbooks, and
 
 **Monday** (advanced EDA)
   -   *Reading:* R4DS Ch 7 (EDA)
-  -   day 6 [slides](slides/day6.html){:target="_blank"}, [activity](https://classroom50.org/econ122-f26/econ122-f26/assignments/day6-activity/accept)
+  -   day 6 [slides](slides/day6.html){:target="_blank"}, [activity](https://classroom50.org/econ122-f26/econ122-f26/assignments/day6-activity/accept), [solutions](activity/sol/day6_activity_sol.html)
   -   **reminder:** Team Project 1 report due Friday 09/25; team defenses in class 09/28
 
 **Wednesday** (advanced wrangling)
