@@ -68,8 +68,7 @@ learning.
 
 Two or three sentences is plenty — length isn't rewarded. Answer what was asked:
 if it wants two reasons, give two; if it asks what you'd *do*, say so. Be
-specific. "The data might be biased" scores below "the dropped rows aren't a
-random subset, so the remaining sample isn't representative."
+specific and concise.
 
 ## Anything else
 
