@@ -76,9 +76,9 @@ instructor contact info, office hours, tutor sessions, textbooks, and
 **Wednesday** (Team Project 1 team defenses)
   -   in class: team defenses (~5 min per team)
   -   **note:** defenses moved from Monday 09/28 to **Wednesday 09/30** so that
-      day 8 material lands earlier, giving you more time on Problem Set 2 and to digest
+      day 8 material lands earlier, giving you more time on PS 2 and to digest
       the material before the exam
-  -   **reminder:** Problem Set 2 due Friday 10/02; Midterm 1 in class Monday 10/05
+  -   **reminder:** PS  2 due Friday 10/02; Midterm 1 in class Monday 10/05
 
 ------------------------------------------------------------------------
 ### Week 6 (10/05)
