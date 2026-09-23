@@ -8,7 +8,7 @@ instructor contact info, office hours, tutor sessions, textbooks, and
 - [Problem Set 1](https://classroom50.org/econ122-f26/econ122-f26/assignments/ps1/accept) (due **09/18**) [[Solutions](ps/ps1_sol.html)]
 - [Team Project 1](https://classroom50.org/econ122-f26/econ122-f26/assignments/tp1/accept) (due **09/25**, team defenses in class **09/30**)
 - [Problem Set 2](https://classroom50.org/econ122-f26/econ122-f26/assignments/ps2/accept) (due **10/02**)
-- Midterm 1 (**10/05**)
+- Midterm 1 (**10/05**) [[Exam 1 notes](exam1_notes.md)]
 
 ------------------------------------------------------------------------
 ### Week 1 (08/31)
