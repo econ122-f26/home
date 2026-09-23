@@ -5,9 +5,9 @@ instructor contact info, office hours, tutor sessions, textbooks, and
 ------------------------------------------------------------------------
 ### Important Dates
 
-- [Problem Set 1](https://classroom50.org/econ122-f26/econ122-f26/assignments/ps1/accept) (due **09/18**)
+- [Problem Set 1](https://classroom50.org/econ122-f26/econ122-f26/assignments/ps1/accept) (due **09/18**) [[Solutions](ps/ps1_sol.html)]
 - [Team Project 1](https://classroom50.org/econ122-f26/econ122-f26/assignments/tp1/accept) (due **09/25**, team defenses in class **09/28**)
-- Problem Set 2 (link TBD) (due **10/02**)
+- [Problem Set 2](https://classroom50.org/econ122-f26/econ122-f26/assignments/ps2/accept) (due **10/02**)
 - Midterm 1 (**10/05**)
 
 ------------------------------------------------------------------------
@@ -63,8 +63,8 @@ instructor contact info, office hours, tutor sessions, textbooks, and
 
 **Wednesday** (advanced wrangling)
   -   *Reading:* R4DS Ch 14-16 (strings, factors, dates/times)
-  -   day 7 slides and activity (links TBD)
-  -   Exam 1 notes distributed; Problem Set 2 posted (due 10/02)
+  -   day 7 [slides](slides/day7.html){:target="_blank"}, [activity](https://classroom50.org/econ122-f26/econ122-f26/assignments/day7-activity/accept)
+  -   [Problem Set 2](https://classroom50.org/econ122-f26/econ122-f26/assignments/ps2/accept) posted (due **10/02**); [Exam 1 notes](exam1_notes.md) distributed
 
 ------------------------------------------------------------------------
 ### Week 5 (09/28)
