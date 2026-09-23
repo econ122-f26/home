@@ -74,8 +74,7 @@ instructor contact info, office hours, tutor sessions, textbooks, and
   -   day 8 slides and activity (links TBD)
 
 **Wednesday** (Team Project 1 team defenses)
-  -   in class: team defenses (~5 min per team); remaining time for exam review
-      and Problem Set 2 questions
+  -   in class: team defenses (~5 min per team)
   -   **note:** defenses moved from Monday 09/28 to **Wednesday 09/30** so that
       day 8 lands earlier, giving you more time on Problem Set 2
   -   **reminder:** Problem Set 2 due Friday 10/02; Midterm 1 in class Monday 10/05
