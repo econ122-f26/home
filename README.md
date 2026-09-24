@@ -63,7 +63,7 @@ instructor contact info, office hours, tutor sessions, textbooks, and
 
 **Wednesday** (advanced wrangling)
   -   *Reading:* R4DS Ch 14-16 (strings, factors, dates/times)
-  -   day 7 [slides](slides/day7.html){:target="_blank"}, [activity](https://classroom50.org/econ122-f26/econ122-f26/assignments/day7-activity/accept)
+  -   day 7 [slides](slides/day7.html){:target="_blank"}, [activity](https://classroom50.org/econ122-f26/econ122-f26/assignments/day7-activity/accept), [solutions](activity/sol/day7_activity_sol.html)
   -   [Problem Set 2](https://classroom50.org/econ122-f26/econ122-f26/assignments/ps2/accept) posted (due **10/02**); [Exam 1 notes](exam1_notes.md) distributed
 
 ------------------------------------------------------------------------
