@@ -71,7 +71,7 @@ instructor contact info, office hours, tutor sessions, textbooks, and
 
 **Monday** (feature engineering)
   -   *Reading:* R4DS Ch 14-16 (strings, factors, dates/times)
-  -   day 8 slides and activity (links TBD)
+  -   day 8 [slides](slides/day8.html){:target="_blank"}, [activity](https://classroom50.org/econ122-f26/econ122-f26/assignments/day8-activity/accept)
 
 **Wednesday** (Team Project 1 team defenses)
   -   in class: team defenses (~5 min per team)
