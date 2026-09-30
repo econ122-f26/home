@@ -75,6 +75,7 @@ instructor contact info, office hours, tutor sessions, textbooks, and
 
 **Wednesday** (Team Project 1 team defenses)
   -   in class: team defenses (~5 min per team)
+  -   Team Project 1 [debrief](slides/tp1_debrief.html){:target="_blank"}
   -   **note:** defenses moved from Monday 09/28 to **Wednesday 09/30** so that
       day 8 material lands earlier, giving you more time on PS 2 and to digest
       the material before the exam
