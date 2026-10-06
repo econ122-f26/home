@@ -85,3 +85,7 @@ instructor contact info, office hours, tutor sessions, textbooks, and
 ### Week 6 (10/05)
 
 **Monday** — **Midterm 1, in class.**
+
+**Wednesday** (statistical learning intro)
+  -   *Reading:* ISL Ch 2
+  -   day 9 [slides](slides/day9.html){:target="_blank"}, [activity](https://classroom50.org/econ122-f26/econ122-f26/assignments/day9-activity/accept)
