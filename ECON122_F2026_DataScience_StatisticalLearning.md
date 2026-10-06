@@ -61,10 +61,15 @@ Upon successful completion of this course, students will be able to:
   chapter numbers in the course schedule refer to this 1st edition — the
   newer 2nd edition at r4ds.hadley.nz renumbers the chapters, so make sure
   you are reading from the r4ds.had.co.nz site.
-- **Textbook:** *An Introduction to Statistical Learning* by Gareth James,
-  Daniela Witten, Trevor Hastie, and Robert Tibshirani. This book provides a
-  more in-depth theoretical foundation. A free PDF is available at
+- **Textbook:** *An Introduction to Statistical Learning, with Applications
+  in R* (**2nd edition**) by Gareth James, Daniela Witten, Trevor Hastie, and
+  Robert Tibshirani. This book provides a more in-depth theoretical
+  foundation. A free PDF is available at
   <https://hastie.su.domains/ISLR2/ISLRv2_corrected_June_2023.pdf.download.html>.
+  All ISL chapter numbers in the course schedule refer to this 2nd edition.
+  Don't use the 1st edition (2013), which numbers the later chapters
+  differently (clustering is Ch 10 there, Ch 12 here), or the Python edition
+  (ISLP), whose code is in Python rather than R.
 - **Software:** R, RStudio (Desktop Edition), Git, and a GitHub account. All
   are free and open-source.
 
