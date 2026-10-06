@@ -89,3 +89,20 @@ instructor contact info, office hours, tutor sessions, textbooks, and
 **Wednesday** (statistical learning intro)
   -   *Reading:* ISL Ch 2
   -   day 9 [slides](slides/day9.html){:target="_blank"}, [activity](https://classroom50.org/econ122-f26/econ122-f26/assignments/day9-activity/accept)
+
+------------------------------------------------------------------------
+### Week 7 (10/12)
+
+**Monday** (linear regression)
+  -   *Reading:* ISL Ch 3.1-3.2, 3.3.3
+
+**Wednesday** (classification)
+  -   *Reading:* ISL Ch 2.2.3, 4.1-4.2
+
+------------------------------------------------------------------------
+### Week 8 (10/19)
+
+**Monday** — **no class (Fall Break).**
+
+**Wednesday** (logistic regression)
+  -   *Reading:* ISL Ch 4.3
