@@ -105,6 +105,7 @@ instructor contact info, office hours, tutor sessions, textbooks, and
 
 **Wednesday** (classification)
   -   *Reading:* ISL Ch 2.2.3, 4.1-4.2
+  -   day 11 [slides](slides/day11.html){:target="_blank"}, [activity](https://classroom50.org/econ122-f26/econ122-f26/assignments/day11-activity/accept)
 
 ------------------------------------------------------------------------
 ### Week 8 (10/19)
