@@ -101,7 +101,7 @@ instructor contact info, office hours, tutor sessions, textbooks, and
 
 **Monday** (linear regression)
   -   *Reading:* ISL Ch 3.1-3.2, 3.3.3
-  -   day 10 [slides](slides/day10.html){:target="_blank"}, [activity](https://classroom50.org/econ122-f26/econ122-f26/assignments/day10-activity/accept)
+  -   day 10 [slides](slides/day10.html){:target="_blank"}, [activity](https://classroom50.org/econ122-f26/econ122-f26/assignments/day10-activity/accept), [solutions](activity/sol/day10_activity_sol.html)
 
 **Wednesday** (classification)
   -   *Reading:* ISL Ch 2.2.3, 4.1-4.2
