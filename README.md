@@ -9,7 +9,7 @@ instructor contact info, office hours, tutor sessions, textbooks, and
 - [Team Project 1](https://classroom50.org/econ122-f26/econ122-f26/assignments/tp1/accept) (due **09/25**, team defenses in class **09/30**)
 - [Problem Set 2](https://classroom50.org/econ122-f26/econ122-f26/assignments/ps2/accept) (due **10/02**) [[Solutions](ps/ps2_sol.html)]
 - [Midterm 1](exam1_notes.md) (**10/05**)
-- Problem Set 3 (due **10/30**)
+- [Problem Set 3](https://classroom50.org/econ122-f26/econ122-f26/assignments/ps3/accept) (due **10/30**)
 - Problem Set 4 (due **11/13**)
 - Team Project 2 (due **11/20**, team defenses in class **11/30**)
 - Problem Set 5 (due **11/30**)
@@ -114,3 +114,30 @@ instructor contact info, office hours, tutor sessions, textbooks, and
 
 **Wednesday** (logistic regression)
   -   *Reading:* ISL Ch 4.3
+  -   day 12 [slides](slides/day12.html){:target="_blank"}, [activity](https://classroom50.org/econ122-f26/econ122-f26/assignments/day12-activity/accept)
+  -   [Problem Set 3](https://classroom50.org/econ122-f26/econ122-f26/assignments/ps3/accept) posted (due **10/30**)
+
+------------------------------------------------------------------------
+### Week 9 (10/26)
+
+**Monday** (k-nearest neighbors)
+  -   *Reading:* ISL Ch 2.2.3 (the KNN part), 3.5, 4.7.6
+  -   day 13 slides and activity (links TBD)
+
+**Wednesday** (cross-validation)
+  -   *Reading:* ISL Ch 5.1
+  -   day 14 slides and activity (links TBD)
+  -   **reminder:** Problem Set 3 due Friday 10/30
+
+------------------------------------------------------------------------
+### Week 10 (11/02)
+
+**Monday** (decision tree intro)
+  -   *Reading:* ISL Ch 8.1 (skip "Tree Pruning" in 8.1.1 until Wednesday)
+  -   day 15 slides and activity (links TBD)
+
+**Wednesday** (pruning)
+  -   *Reading:* ISL Ch 8.1.1, "Tree Pruning"
+  -   day 16 slides and activity (links TBD)
+  -   Team Project 2 introduced (link TBD)
+  -   Problem Set 4 posted (due **11/13**) (link TBD)
