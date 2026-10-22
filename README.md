@@ -114,7 +114,7 @@ instructor contact info, office hours, tutor sessions, textbooks, and
 
 **Wednesday** (logistic regression)
   -   *Reading:* ISL Ch 4.3
-  -   day 12 [slides](slides/day12.html){:target="_blank"}, [activity](https://classroom50.org/econ122-f26/econ122-f26/assignments/day12-activity/accept)
+  -   day 12 [slides](slides/day12.html){:target="_blank"}, [activity](https://classroom50.org/econ122-f26/econ122-f26/assignments/day12-activity/accept), [solutions](activity/sol/day12_activity_sol.html)
   -   [Problem Set 3](https://classroom50.org/econ122-f26/econ122-f26/assignments/ps3/accept) posted (due **10/30**)
 
 ------------------------------------------------------------------------
