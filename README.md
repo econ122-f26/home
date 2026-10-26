@@ -122,7 +122,7 @@ instructor contact info, office hours, tutor sessions, textbooks, and
 
 **Monday** (k-nearest neighbors)
   -   *Reading:* ISL Ch 2.2.3 (the KNN part), 3.5, 4.7.6
-  -   day 13 slides and activity (links TBD)
+  -   day 13 [slides](slides/day13.html){:target="_blank"}, [activity](https://classroom50.org/econ122-f26/econ122-f26/assignments/day13-activity/accept)
 
 **Wednesday** (cross-validation)
   -   *Reading:* ISL Ch 5.1
