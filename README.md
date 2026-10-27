@@ -141,3 +141,15 @@ instructor contact info, office hours, tutor sessions, textbooks, and
   -   day 16 slides and activity (links TBD)
   -   Team Project 2 introduced (link TBD)
   -   Problem Set 4 posted (due **11/13**) (link TBD)
+
+------------------------------------------------------------------------
+### Week 11 (11/09)
+
+**Monday** (bagging and random forests)
+  -   *Reading:* ISL Ch 8.2.1–8.2.2
+  -   day 17 slides and activity (links TBD)
+
+**Wednesday** (boosting)
+  -   *Reading:* ISL Ch 8.2.3 and 8.2.5 (skip 8.2.4)
+  -   day 18 slides and activity (links TBD)
+  -   **reminder:** Problem Set 4 due Friday 11/13
