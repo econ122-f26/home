@@ -126,7 +126,7 @@ instructor contact info, office hours, tutor sessions, textbooks, and
 
 **Wednesday** (cross-validation)
   -   *Reading:* ISL Ch 5.1
-  -   day 14 [slides](slides/day14.html){:target="_blank"}, [activity](https://classroom50.org/econ122-f26/econ122-f26/assignments/day14-activity/accept)
+  -   day 14 [slides](slides/day14.html){:target="_blank"}, [activity](https://classroom50.org/econ122-f26/econ122-f26/assignments/day14-activity/accept), [solutions](activity/sol/day14_activity_sol.html)
   -   **reminder:** Problem Set 3 due Friday 10/30
 
 ------------------------------------------------------------------------
