@@ -134,7 +134,7 @@ instructor contact info, office hours, tutor sessions, textbooks, and
 
 **Monday** (decision tree intro)
   -   *Reading:* ISL Ch 8.1 (skip "Tree Pruning" in 8.1.1 until Wednesday)
-  -   day 15 slides and activity (links TBD)
+  -   day 15 [slides](slides/day15.html){:target="_blank"}, [activity](https://classroom50.org/econ122-f26/econ122-f26/assignments/day15-activity/accept)
 
 **Wednesday** (pruning)
   -   *Reading:* ISL Ch 8.1.1, "Tree Pruning"
