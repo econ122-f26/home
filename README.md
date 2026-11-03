@@ -138,7 +138,7 @@ instructor contact info, office hours, tutor sessions, textbooks, and
 
 **Wednesday** (pruning)
   -   *Reading:* ISL Ch 8.1.1, "Tree Pruning"
-  -   day 16 slides and activity (links TBD)
+  -   day 16 [slides](slides/day16.html){:target="_blank"}, [activity](https://classroom50.org/econ122-f26/econ122-f26/assignments/day16-activity/accept)
   -   Team Project 2 introduced (link TBD)
   -   Problem Set 4 posted (due **11/13**) (link TBD)
 
