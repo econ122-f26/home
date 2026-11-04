@@ -153,3 +153,46 @@ instructor contact info, office hours, tutor sessions, textbooks, and
   -   *Reading:* ISL Ch 8.2.3 and 8.2.5 (skip 8.2.4)
   -   day 18 slides and activity (links TBD)
   -   **reminder:** Problem Set 4 due Friday 11/13
+
+------------------------------------------------------------------------
+### Week 12 (11/16)
+
+**Monday** (k-means clustering)
+  -   *Reading:* ISL Ch 12.1 and 12.4.1
+  -   day 19 slides and activity (links TBD)
+
+**Wednesday** (hierarchical clustering)
+  -   *Reading:* ISL Ch 12.4.2–12.4.3
+  -   day 20 slides and activity (links TBD)
+  -   **reminder:** Team Project 2 due Friday 11/20
+
+------------------------------------------------------------------------
+### Week 13 (11/23)
+
+**Monday** (principal component analysis)
+  -   *Reading:* ISL Ch 12.2
+  -   day 21 slides and activity (links TBD)
+  -   Exam 2 notes distributed (link TBD)
+  -   **reminder:** Problem Set 5 due Monday 11/30
+
+**Wednesday** — **no class (Thanksgiving Break).**
+
+------------------------------------------------------------------------
+### Week 14 (11/30)
+
+**Monday** (Team Project 2 team defenses)
+  -   in class: team defenses (~5 min per team)
+  -   Team Project 2 debrief and leaderboard reveal
+  -   brief Final Project intro
+  -   **reminder:** Problem Set 5 due today; Midterm 2 in class Wednesday 12/02
+
+**Wednesday** — **Midterm 2, in class.**
+
+------------------------------------------------------------------------
+### Week 15 (12/07)
+
+**Monday** — guest speaker: Andreas Aristidou (Netflix)
+
+**Wednesday** (last day of class — Final Project team defenses)
+  -   in class: Final Project team defenses; the class gives feedback
+  -   course evaluations
