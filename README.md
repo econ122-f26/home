@@ -10,8 +10,8 @@ instructor contact info, office hours, tutor sessions, textbooks, and
 - [Problem Set 2](https://classroom50.org/econ122-f26/econ122-f26/assignments/ps2/accept) (due **10/02**) [[Solutions](ps/ps2_sol.html)]
 - [Midterm 1](exam1_notes.md) (**10/05**)
 - [Problem Set 3](https://classroom50.org/econ122-f26/econ122-f26/assignments/ps3/accept) (due **10/30**) [[Solutions](ps/ps3_sol.html)]
-- Problem Set 4 (due **11/13**)
-- Team Project 2 (due **11/20**, team defenses in class **11/30**)
+- [Problem Set 4](https://classroom50.org/econ122-f26/econ122-f26/assignments/ps4/accept) (due **11/13**)
+- [Team Project 2](https://classroom50.org/econ122-f26/econ122-f26/assignments/tp2/accept) (due **11/20**, team defenses in class **11/30**)
 - Problem Set 5 (due **11/30**)
 - Midterm 2 (**12/02**)
 - Final Project (team defenses in class **12/09**, due **12/18**)
@@ -139,8 +139,8 @@ instructor contact info, office hours, tutor sessions, textbooks, and
 **Wednesday** (pruning)
   -   *Reading:* ISL Ch 8.1.1, "Tree Pruning"
   -   day 16 [slides](slides/day16.html){:target="_blank"}, [activity](https://classroom50.org/econ122-f26/econ122-f26/assignments/day16-activity/accept)
-  -   Team Project 2 introduced (link TBD)
-  -   Problem Set 4 posted (due **11/13**) (link TBD)
+  -   Team Project 2 introduced — [read the prompt and data](https://github.com/econ122-templates/tp2-template){:target="_blank"} (no sign-up needed). Teams of 2 to 4: when you're ready, one person [accepts](https://classroom50.org/econ122-f26/econ122-f26/assignments/tp2/accept) and creates the group; teammates then either ask to join it there or get added by GitHub username. Due 11/20, team defenses in class 11/30
+  -   [Problem Set 4](https://classroom50.org/econ122-f26/econ122-f26/assignments/ps4/accept) posted (due **11/13**)
 
 ------------------------------------------------------------------------
 ### Week 11 (11/09)
