@@ -138,7 +138,7 @@ instructor contact info, office hours, tutor sessions, textbooks, and
 
 **Wednesday** (pruning)
   -   *Reading:* ISL Ch 8.1.1, "Tree Pruning"
-  -   day 16 [slides](slides/day16.html){:target="_blank"}, [activity](https://classroom50.org/econ122-f26/econ122-f26/assignments/day16-activity/accept)
+  -   day 16 [slides](slides/day16.html){:target="_blank"}, [activity](https://classroom50.org/econ122-f26/econ122-f26/assignments/day16-activity/accept), [solutions](activity/sol/day16_activity_sol.html)
   -   Team Project 2 introduced — [read the prompt and data](https://github.com/econ122-templates/tp2-template){:target="_blank"} (no sign-up needed). Teams of 2 to 4: when you're ready, one person [accepts](https://classroom50.org/econ122-f26/econ122-f26/assignments/tp2/accept) and creates the group; teammates then either ask to join it there or get added by GitHub username. Due 11/20, team defenses in class 11/30
   -   [Problem Set 4](https://classroom50.org/econ122-f26/econ122-f26/assignments/ps4/accept) posted (due **11/13**)
 
