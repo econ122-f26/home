@@ -147,7 +147,7 @@ instructor contact info, office hours, tutor sessions, textbooks, and
 
 **Monday** (bagging and random forests)
   -   *Reading:* ISL Ch 8.2.1–8.2.2
-  -   day 17 slides and activity (links TBD)
+  -   day 17 [slides](slides/day17.html){:target="_blank"}, [activity](https://classroom50.org/econ122-f26/econ122-f26/assignments/day17-activity/accept)
 
 **Wednesday** (boosting)
   -   *Reading:* ISL Ch 8.2.3 and 8.2.5 (skip 8.2.4)
