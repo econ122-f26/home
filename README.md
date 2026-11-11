@@ -14,7 +14,7 @@ instructor contact info, office hours, tutor sessions, textbooks, and
 - [Team Project 2](https://classroom50.org/econ122-f26/econ122-f26/assignments/tp2/accept) (due **11/20**, team defenses in class **11/30**)
 - Problem Set 5 (due **11/30**)
 - Midterm 2 (**12/02**)
-- Final Project (proposal due **12/04**, team defenses in class **12/09**, due **12/18**)
+- Final Project (team defenses in class **12/09**, due **12/18**)
 
 ------------------------------------------------------------------------
 ### Week 1 (08/31)
@@ -173,7 +173,7 @@ instructor contact info, office hours, tutor sessions, textbooks, and
   -   *Reading:* ISL Ch 12.2
   -   day 21 slides and activity (links TBD)
   -   Exam 2 notes distributed (link TBD)
-  -   Final Project introduced (prompt link TBD). Teams of 2 to 4; proposal due Friday 12/04
+  -   Final Project introduced (prompt link TBD). Teams of 2 to 4
   -   **reminder:** Problem Set 5 due Monday 11/30
 
 **Wednesday** — **no class (Thanksgiving Break).**
@@ -184,12 +184,10 @@ instructor contact info, office hours, tutor sessions, textbooks, and
 **Monday** (Team Project 2 team defenses)
   -   in class: team defenses (~5 min per team)
   -   Team Project 2 debrief and leaderboard reveal
-  -   Final Project check-in: tell me your team and topic
+  -   Final Project check-in: tell me your team, your topic, and a link to your data
   -   **reminder:** Problem Set 5 due today; Midterm 2 in class Wednesday 12/02
 
 **Wednesday** — **Midterm 2, in class.**
-
-**Friday** — **reminder:** Final Project proposal due (one paragraph in your repo's `README.md`)
 
 ------------------------------------------------------------------------
 ### Week 15 (12/07)
