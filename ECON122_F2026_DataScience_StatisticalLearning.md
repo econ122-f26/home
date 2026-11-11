@@ -100,7 +100,7 @@ Upon successful completion of this course, students will be able to:
   - Late assignments are not accepted, but the lowest grade will be dropped.
 - **Team Projects:** Two projects assigned during the semester, with
   collaboration on GitHub.
-- **Final Project:** A group project (3-4 students) with a clear question
+- **Final Project:** A group project (2-4 students) with a clear question
   and answer, using outside data and course skills.
 
 ## Policies
