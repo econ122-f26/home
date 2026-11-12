@@ -151,7 +151,7 @@ instructor contact info, office hours, tutor sessions, textbooks, and
 
 **Wednesday** (boosting)
   -   *Reading:* ISL Ch 8.2.3 and 8.2.5 (skip 8.2.4)
-  -   day 18 [slides](slides/day18.html){:target="_blank"}, [activity](https://classroom50.org/econ122-f26/econ122-f26/assignments/day18-activity/accept)
+  -   day 18 [slides](slides/day18.html){:target="_blank"}, [activity](https://classroom50.org/econ122-f26/econ122-f26/assignments/day18-activity/accept), [solutions](activity/sol/day18_activity_sol.html)
   -   **reminder:** Problem Set 4 due Friday 11/13
 
 ------------------------------------------------------------------------
