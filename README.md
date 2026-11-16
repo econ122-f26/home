@@ -159,7 +159,7 @@ instructor contact info, office hours, tutor sessions, textbooks, and
 
 **Monday** (k-means clustering)
   -   *Reading:* ISL Ch 12.1 and 12.4.1
-  -   day 19 slides and activity (links TBD)
+  -   day 19 [slides](slides/day19.html){:target="_blank"}, [activity](https://classroom50.org/econ122-f26/econ122-f26/assignments/day19-activity/accept)
 
 **Wednesday** (hierarchical clustering)
   -   *Reading:* ISL Ch 12.4.2–12.4.3
