@@ -12,7 +12,7 @@ instructor contact info, office hours, tutor sessions, textbooks, and
 - [Problem Set 3](https://classroom50.org/econ122-f26/econ122-f26/assignments/ps3/accept) (due **10/30**) [[Solutions](ps/ps3_sol.html)]
 - [Problem Set 4](https://classroom50.org/econ122-f26/econ122-f26/assignments/ps4/accept) (due **11/13**)
 - [Team Project 2](https://classroom50.org/econ122-f26/econ122-f26/assignments/tp2/accept) (due **11/20**, team defenses in class **11/30**)
-- Problem Set 5 (due **11/30**)
+- [Problem Set 5](https://classroom50.org/econ122-f26/econ122-f26/assignments/ps5/accept) (due **11/30**)
 - Midterm 2 (**12/02**)
 - Final Project (team defenses in class **12/09**, due **12/18**)
 
@@ -164,6 +164,7 @@ instructor contact info, office hours, tutor sessions, textbooks, and
 **Wednesday** (hierarchical clustering)
   -   *Reading:* ISL Ch 12.4.2–12.4.3
   -   day 20 [slides](slides/day20.html){:target="_blank"}, [activity](https://classroom50.org/econ122-f26/econ122-f26/assignments/day20-activity/accept)
+  -   [Problem Set 5](https://classroom50.org/econ122-f26/econ122-f26/assignments/ps5/accept) posted (due **11/30**)
   -   **reminder:** Team Project 2 due Friday 11/20
 
 ------------------------------------------------------------------------
