@@ -15,7 +15,7 @@
 - **Restart your computer before the exam** and close as many programs as you
   can, so LockDown Browser starts smoothly.
 - **No code to write.** You'll read output, explain what it means, and do short
-  calculations by hand. A fraction is a fine final answer.
+  calculations by hand or with the Canvas calculator. A fraction is a fine final answer.
 
 ## What it covers
 
