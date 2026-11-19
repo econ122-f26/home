@@ -163,7 +163,7 @@ instructor contact info, office hours, tutor sessions, textbooks, and
 
 **Wednesday** (hierarchical clustering)
   -   *Reading:* ISL Ch 12.4.2–12.4.3
-  -   day 20 [slides](slides/day20.html){:target="_blank"}, [activity](https://classroom50.org/econ122-f26/econ122-f26/assignments/day20-activity/accept)
+  -   day 20 [slides](slides/day20.html){:target="_blank"}, [activity](https://classroom50.org/econ122-f26/econ122-f26/assignments/day20-activity/accept), [solutions](activity/sol/day20_activity_sol.html)
   -   [Problem Set 5](https://classroom50.org/econ122-f26/econ122-f26/assignments/ps5/accept) posted (due **11/30**)
   -   **reminder:** Team Project 2 due Friday 11/20
 
