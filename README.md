@@ -13,7 +13,7 @@ instructor contact info, office hours, tutor sessions, textbooks, and
 - [Problem Set 4](https://classroom50.org/econ122-f26/econ122-f26/assignments/ps4/accept) (due **11/13**)
 - [Team Project 2](https://classroom50.org/econ122-f26/econ122-f26/assignments/tp2/accept) (due **11/20**, team defenses in class **11/30**)
 - [Problem Set 5](https://classroom50.org/econ122-f26/econ122-f26/assignments/ps5/accept) (due **11/30**)
-- Midterm 2 (**12/02**)
+- [Midterm 2](exam2_notes.md) (**12/02**)
 - Final Project (team defenses in class **12/09**, due **12/18**)
 
 ------------------------------------------------------------------------
@@ -173,7 +173,7 @@ instructor contact info, office hours, tutor sessions, textbooks, and
 **Monday** (principal component analysis)
   -   *Reading:* ISL Ch 12.2
   -   day 21 slides and activity (links TBD)
-  -   Exam 2 notes distributed (link TBD)
+  -   [Exam 2 notes](exam2_notes.md) distributed
   -   Final Project introduced (prompt link TBD). Teams of 2 to 4
   -   **reminder:** Problem Set 5 due Monday 11/30
 
