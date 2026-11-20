@@ -10,7 +10,7 @@ instructor contact info, office hours, tutor sessions, textbooks, and
 - [Problem Set 2](https://classroom50.org/econ122-f26/econ122-f26/assignments/ps2/accept) (due **10/02**) [[Solutions](ps/ps2_sol.html)]
 - [Midterm 1](exam1_notes.md) (**10/05**)
 - [Problem Set 3](https://classroom50.org/econ122-f26/econ122-f26/assignments/ps3/accept) (due **10/30**) [[Solutions](ps/ps3_sol.html)]
-- [Problem Set 4](https://classroom50.org/econ122-f26/econ122-f26/assignments/ps4/accept) (due **11/13**)
+- [Problem Set 4](https://classroom50.org/econ122-f26/econ122-f26/assignments/ps4/accept) (due **11/13**) [[Solutions](ps/ps4_sol.html)]
 - [Team Project 2](https://classroom50.org/econ122-f26/econ122-f26/assignments/tp2/accept) (due **11/20**, team defenses in class **11/30**)
 - [Problem Set 5](https://classroom50.org/econ122-f26/econ122-f26/assignments/ps5/accept) (due **11/30**)
 - [Midterm 2](exam2_notes.md) (**12/02**)
@@ -174,7 +174,7 @@ instructor contact info, office hours, tutor sessions, textbooks, and
   -   *Reading:* ISL Ch 12.2
   -   day 21 slides and activity (links TBD)
   -   [Exam 2 notes](exam2_notes.md) distributed
-  -   [Final Project](https://classroom50.org/econ122-f26/econ122-f26/assignments/finalproject/accept) introduced (due **12/18**). Teams of 2 to 4
+  -   Final Project introduced — [read the prompt](https://github.com/econ122-templates/finalproject-template){:target="_blank"} (no sign-up needed). Teams of 2 to 4: when you're ready, one person [accepts](https://classroom50.org/econ122-f26/econ122-f26/assignments/finalproject/accept) and creates the group; teammates then either ask to join it there or get added by GitHub username. Due 12/18, team defenses in class 12/09
   -   **reminder:** Problem Set 5 due Monday 11/30
 
 **Wednesday** — **no class (Thanksgiving Break).**
